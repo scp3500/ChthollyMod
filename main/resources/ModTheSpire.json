@@ -1,0 +1,13 @@
+{
+  "modid": "Chtholly_demo1",
+  "name": "Chtholly(珂朵莉)",
+  "author_list": [
+    "某柯学家"
+  ],
+  "description": "纵使日薄西山, 即使看不见未来, 此时此刻的光辉, 盼君勿忘。",
+  "dependencies": [
+    "basemod"
+  ],
+  "version": "0.0.1",
+  "sts_version": "06-15-2023"
+}
