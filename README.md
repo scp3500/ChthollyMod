@@ -16,7 +16,7 @@ ChthollyMod 是 [杀戮尖塔（SlayTheSpire）](https://store.steampowered.com/
 
 ### 下载
 
-[jar文件][ChthollyMod/Chtholly_demo1.jar at master · scp3500/ChthollyMod · GitHub](https://github.com/scp3500/ChthollyMod/blob/master/Chtholly_demo1.jar)
+[jar文件](https://github.com/scp3500/ChthollyMod/blob/master/Chtholly_demo1.jar)
 
 ### Profile
 
@@ -32,4 +32,4 @@ Adds Chtholly from WorldEnd to Slay the Spire as a playable character.
 
 ### Download
 
-[jar][ChthollyMod/Chtholly_demo1.jar at master · scp3500/ChthollyMod · GitHub](https://github.com/scp3500/ChthollyMod/blob/master/Chtholly_demo1.jar)
+[jar](https://github.com/scp3500/ChthollyMod/blob/master/Chtholly_demo1.jar)
