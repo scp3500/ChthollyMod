@@ -6,7 +6,7 @@
 
 ChthollyMod 是 [杀戮尖塔（SlayTheSpire）](https://store.steampowered.com/app/646570/Slay_the_Spire/) 的一个Mod。
 
-本 Mod 向游戏添加了([末日三问](https://zh.moegirl.org.cn/末日时在做什么？有没有空？可以来拯救吗？#cite_note-1))中的角色 珂朵莉。
+本 Mod 向游戏添加了[末日三问](https://zh.moegirl.org.cn/末日时在做什么？有没有空？可以来拯救吗？#cite_note-1)中的角色 珂朵莉。
 
 ### 使用
 
