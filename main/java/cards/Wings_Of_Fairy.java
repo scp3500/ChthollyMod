@@ -23,7 +23,7 @@ public class Wings_Of_Fairy extends CustomCard {
     public static final int LARGE = 99;
 
     public Wings_Of_Fairy() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Wings_Of_Fairy.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Wings_Of_Fairy.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.baseMagicNumber = 4;
         this.magicNumber = this.baseMagicNumber;
     }

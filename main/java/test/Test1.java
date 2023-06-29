@@ -7,12 +7,15 @@ import com.megacrit.cardcrawl.actions.unique.*;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.actions.watcher.CollectAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.blue.AllForOne;
 import com.megacrit.cardcrawl.cards.blue.Blizzard;
 import com.megacrit.cardcrawl.cards.colorless.Enlightenment;
 import com.megacrit.cardcrawl.cards.colorless.Purity;
+import com.megacrit.cardcrawl.cards.green.InfiniteBlades;
 import com.megacrit.cardcrawl.cards.green.WraithForm;
 import com.megacrit.cardcrawl.cards.purple.Blasphemy;
 import com.megacrit.cardcrawl.cards.purple.Wish;
+import com.megacrit.cardcrawl.cards.red.SearingBlow;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -68,5 +71,10 @@ public class Test1 {
         //new Purity();
         //new Enlightenment;
         //new Blizzard();
+        //EchoPower
+        //ScrapeFollowUpAction
+        //AllForOne
+        //SearingBlow
+        //InfiniteBlades
     }
 }

@@ -228,6 +228,13 @@ public class selesMod implements RelicGetSubscriber, PostPowerApplySubscriber, P
         this.cardsToAdd.add(new Redemption_N());
         this.cardsToAdd.add(new Many_Lives());
         this.cardsToAdd.add(new Avg_Strike());
+        this.cardsToAdd.add(new Magic_Increase());
+        this.cardsToAdd.add(new Magic_Illusion());
+        this.cardsToAdd.add(new Magic_Circle());
+        this.cardsToAdd.add(new Magic_Avoid());
+        this.cardsToAdd.add(new Magic_Fire());
+        this.cardsToAdd.add(new Emergency_Cooking());
+        this.cardsToAdd.add(new Magic_Focus());
         UnlockTracker.unlockCard("Strike_Seles");
         UnlockTracker.unlockCard("Defend_Seles");
         UnlockTracker.unlockCard("Combo_Attack");
@@ -282,6 +289,13 @@ public class selesMod implements RelicGetSubscriber, PostPowerApplySubscriber, P
         UnlockTracker.unlockCard("Redemption_N");
         UnlockTracker.unlockCard("Many_Lives");
         UnlockTracker.unlockCard("Avg_Strike");
+        UnlockTracker.unlockCard("Magic_Increase");
+        UnlockTracker.unlockCard("Magic_Illusion");
+        UnlockTracker.unlockCard("Magic_Circle");
+        UnlockTracker.unlockCard("Magic_Avoid");
+        UnlockTracker.unlockCard("Magic_Fire");
+        UnlockTracker.unlockCard("Emergency_Cooking");
+        UnlockTracker.unlockCard("Magic_Focus");
     }
 
     //添加一度

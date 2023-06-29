@@ -21,7 +21,7 @@ public class Practice_Cooking extends CustomCard {
 
     public Practice_Cooking() {
         super(ID, cardStrings.NAME, "img/cards_Seles/Practice_Cooking.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.misc = 2;
+        this.misc = 4;
         this.baseMagicNumber = this.misc;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;

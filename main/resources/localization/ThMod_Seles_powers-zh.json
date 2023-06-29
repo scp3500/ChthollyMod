@@ -28,7 +28,7 @@
     "NAME": "失忆",
     "DESCRIPTIONS": [
       "当你每次获得或失去 #y失忆 后, 若层数大于5点,则获得 #b2 点 #y力量 。",
-      "当你的 #y失忆层数 不低于 10 时, 下回合直接死亡"
+      "当你的 #y失忆层数 不低于 10 时, 下回合受到 30 伤害"
     ]
   },
   "Illusory_Ruckus": {
@@ -41,7 +41,7 @@
   "EndTurnDeathPower_New": {
     "NAME": "转世",
     "DESCRIPTIONS": [
-      "在你的回合开始时死亡。"
+      "在你的回合开始受到30点伤害。"
     ]
   },
   "Magic_Out": {
@@ -78,6 +78,20 @@
     "DESCRIPTIONS": [
       "每次获取 #y失忆 时, 获得 #b",
       " 点 #y格挡 "
+    ]
+  },
+  "Magic_Increase": {
+    "NAME": "魔力增幅",
+    "DESCRIPTIONS": [
+      "你打出的\"魔力系列\"牌会打出两次"
+    ]
+  },
+  "Magic_Focus": {
+    "NAME": "魔力专注",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，得到 #b",
+      " 张 #y专注 。",
+      " 张 #y专注 。"
     ]
   }
 }

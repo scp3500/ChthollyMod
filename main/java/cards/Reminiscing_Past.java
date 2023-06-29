@@ -22,8 +22,8 @@ public class Reminiscing_Past extends CustomCard {
     public static final String ID = "Reminiscing_Past";
 
     public Reminiscing_Past() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Reminiscing_Past.png", 2, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
-        this.baseDamage = 15;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Reminiscing_Past.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
+        this.baseDamage = 8;
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
     }

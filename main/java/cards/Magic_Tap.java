@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import pathes.AbstractCardEnum;
+import pathes.CardTagEnum;
 import power.Lose_Memory_Power;
 
 public class Magic_Tap extends CustomCard {
@@ -25,6 +26,7 @@ public class Magic_Tap extends CustomCard {
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(AbstractCard.CardTags.STRIKE);
+        this.tags.add(CardTagEnum.Magic);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

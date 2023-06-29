@@ -26,12 +26,13 @@ public class Avg_Strike extends CustomCard {
         this.baseDamage = 10;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
+        this.tags.add(AbstractCard.CardTags.STRIKE);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction) new DamageAction((AbstractCreature) m, new DamageInfo((AbstractCreature) p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
         addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new Lose_Memory_Power((AbstractCreature)p, this.magicNumber), this.magicNumber));
-        addToBot((AbstractGameAction) new WaitAction(0.4F));
+        addToBot((AbstractGameAction) new WaitAction(1.5F));
         addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new Lose_Memory_Power((AbstractCreature)p, -this.magicNumber), -this.magicNumber));
     }
 

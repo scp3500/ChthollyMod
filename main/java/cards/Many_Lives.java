@@ -14,8 +14,8 @@ public class Many_Lives extends CustomCard {
     public static final String ID = "Many_Lives";
 
     public Many_Lives() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Many_Lives.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 2;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Many_Lives.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }
 

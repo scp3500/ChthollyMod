@@ -57,13 +57,13 @@
   },
   "Get_Energy": {
     "NAME": "魔力聚集",
-    "DESCRIPTION": "获得 [E] [E] 。 NL 获得 3 层 失忆 ",
-    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] 。 NL 获得 3 层 失忆 "
+    "DESCRIPTION": "获得 [E] [E] 。 NL 获得 !M! 层 失忆 ",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] 。 NL 获得 !M! 层 失忆 "
   },
   "On_Rush": {
     "NAME": "冲动",
-    "DESCRIPTION": "抽 3 张牌。 NL 获得 !M! 层 虚弱 。 NL 获得 !M! 层 易伤 。",
-    "UPGRADE_DESCRIPTION": "抽 3 张牌。 NL 获得 !M! 层 虚弱 。 NL 获得 !M! 层 易伤 。"
+    "DESCRIPTION": "抽 3 张牌。 NL 获得 !M! 层 易伤 。",
+    "UPGRADE_DESCRIPTION": "抽 3 张牌。 NL 获得 !M! 层 易伤 。"
   },
   "More_Amazonian": {
     "NAME": "愈战愈勇",
@@ -245,8 +245,8 @@
   },
   "Magic_Overflow": {
     "NAME": "魔力涌现",
-    "DESCRIPTION": "获得 [E] 。抽 4 张牌。 NL 获得 4 层 失忆 。 NL 消耗 ",
-    "UPGRADE_DESCRIPTION": "获得 [E] [E] 。抽 4 张牌。 NL 获得 4 层 失忆 。 NL 消耗 "
+    "DESCRIPTION": "获得 [E] 。抽 3 张牌。 NL 获得 3 层 失忆 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] 。抽 3 张牌。 NL 获得 3 层 失忆 。 NL 消耗 "
   },
   "Concern_N": {
     "NAME": "关切",
@@ -254,7 +254,7 @@
     "UPGRADE_DESCRIPTION": "抽 !M! 张牌, 升级所有手牌 NL 获得 !M! 层 失忆 "
   },
   "Narrow_Escape": {
-    "NAME": "九死一生",
+    "NAME": "躲闪",
     "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 虚弱 。",
     "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 虚弱 。"
   },
@@ -277,5 +277,39 @@
     "NAME": "均衡打击",
     "DESCRIPTION": "造成 !D! 伤害, NL  获得 !M! 层 失忆 , NL 失去 !M! 层 失忆 ",
     "UPGRADE_DESCRIPTION": "造成 !D! 伤害, NL  获得 !M! 层 失忆 , NL 失去 !M! 层 失忆 "
+  },
+  "Magic_Increase": {
+    "NAME": "魔力增幅",
+    "DESCRIPTION": "你打出的\"魔力系列\"牌会打出两次",
+    "UPGRADE_DESCRIPTION": "你打出的\"魔力系列\"牌会打出两次"
+  },
+  "Magic_Illusion": {
+    "NAME": "魔力锋芒",
+    "DESCRIPTION": "造成 !D! 伤害 !M! 次。 NL 抽 !M! 张牌。 NL 丢弃抽到的牌中非\"魔力系列\"的牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 伤害 !M! 次。 NL 抽 !M! 张牌。 NL 丢弃抽到的牌中非\"魔力系列\"的牌。"
+  },
+  "Magic_Circle": {
+    "NAME": "魔力循环",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将弃牌堆中所有\"魔力系列\"的牌放入你的手牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 将弃牌堆中所有\"魔力系列\"的牌放入你的手牌。"
+  },
+  "Magic_Avoid": {
+    "NAME": "魔力极速",
+    "DESCRIPTION": "获得 !B! 点 格挡。 NL 抽 !M! 张 牌 NL 获得 2 层 失忆 ",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡。 NL 抽 !M! 张 牌 NL 获得 2 层 失忆 "
+  },
+  "Magic_Fire": {
+    "NAME": "魔力燃尽",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 能被多次 升级 。"
+  },
+  "Emergency_Cooking": {
+    "NAME": "紧急烹饪",
+    "DESCRIPTION": "获得 [E] 。 NL 回复 !M! 点生命 NL  消耗",
+    "UPGRADE_DESCRIPTION": "获得 [E] 。 NL 回复 !M! 点生命 NL  消耗"
+  },
+  "Magic_Focus": {
+    "NAME": "魔力专注",
+    "DESCRIPTION": "每回合获得一张 *专注 。 获得 !M! 层 失忆 ",
+    "UPGRADE_DESCRIPTION": "每回合获得一张 *专注 。 获得 !M! 层 失忆 。 固有 "
   }
 }

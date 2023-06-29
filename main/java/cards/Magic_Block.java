@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.ArtifactPower;
 import pathes.AbstractCardEnum;
+import pathes.CardTagEnum;
 import power.Lose_Memory_Power;
 
 public class Magic_Block extends CustomCard {
@@ -25,6 +26,7 @@ public class Magic_Block extends CustomCard {
         this.baseBlock = 16;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
+        this.tags.add(CardTagEnum.Magic);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

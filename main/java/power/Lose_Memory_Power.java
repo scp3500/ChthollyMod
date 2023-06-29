@@ -20,7 +20,7 @@ import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
 public class Lose_Memory_Power extends AbstractPower {
     public static final String POWER_ID = "Lose_Memory";
     private static final PowerStrings powerStrings;
-    private static final int GET_POWER = 2;
+    private static int GET_POWER = 1;
 
     public static int amount_N;
 
@@ -45,6 +45,8 @@ public class Lose_Memory_Power extends AbstractPower {
     }
 
     public void stackPower(int stackAmount) {
+        int count = 1;
+        count++;
         //super.stackPower(stackAmount);
         if (this.amount == -1) {
             System.out.println("000");
@@ -75,14 +77,14 @@ public class Lose_Memory_Power extends AbstractPower {
         }
         if (this.amount > 5 && this.amount < 10) {
             AbstractDungeon.player.img = ImageMaster.loadImage(seles.SELES_STAND_Mid);
-            addToBot((AbstractGameAction) new ApplyPowerAction((AbstractCreature) this.owner, (AbstractCreature) this.owner, new StrengthPower((AbstractCreature) this.owner, GET_POWER), GET_POWER));
+            addToBot((AbstractGameAction) new ApplyPowerAction((AbstractCreature) this.owner, (AbstractCreature) this.owner, new StrengthPower((AbstractCreature) this.owner, count), count));
         }
         if (this.amount >= 10) {
             AbstractDungeon.player.img = ImageMaster.loadImage(seles.SELES_STAND_End);
             addToBot((AbstractGameAction) new VFXAction((AbstractGameEffect) new LightningEffect(this.owner.hb.cX, this.owner.hb.cY)));
             //addToBot((AbstractGameAction) new LoseHPAction(this.owner, this.owner, 99999));
             addToBot((AbstractGameAction) new ApplyPowerAction((AbstractCreature) this.owner, (AbstractCreature) this.owner, (AbstractPower) new EndTurnDeathPower_New((AbstractCreature) this.owner)));
-            addToBot((AbstractGameAction) new ApplyPowerAction((AbstractCreature) this.owner, (AbstractCreature) this.owner, new StrengthPower((AbstractCreature) this.owner, GET_POWER), GET_POWER));
+            addToBot((AbstractGameAction) new ApplyPowerAction((AbstractCreature) this.owner, (AbstractCreature) this.owner, new StrengthPower((AbstractCreature) this.owner, count), count));
             //addToBot((AbstractGameAction) new RemoveSpecificPowerAction(this.owner, this.owner, "Lose_Memory"));
             if (this.amount != 10) {
                 this.amount -= 10;
