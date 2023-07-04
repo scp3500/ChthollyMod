@@ -6,26 +6,35 @@ import com.megacrit.cardcrawl.actions.defect.*;
 import com.megacrit.cardcrawl.actions.unique.*;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.actions.watcher.CollectAction;
+import com.megacrit.cardcrawl.actions.watcher.VengeanceAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.blue.AllForOne;
 import com.megacrit.cardcrawl.cards.blue.Blizzard;
+import com.megacrit.cardcrawl.cards.blue.Seek;
+import com.megacrit.cardcrawl.cards.blue.Turbo;
 import com.megacrit.cardcrawl.cards.colorless.Enlightenment;
+import com.megacrit.cardcrawl.cards.colorless.HandOfGreed;
 import com.megacrit.cardcrawl.cards.colorless.Purity;
-import com.megacrit.cardcrawl.cards.green.InfiniteBlades;
-import com.megacrit.cardcrawl.cards.green.WraithForm;
+import com.megacrit.cardcrawl.cards.deprecated.DEPRECATEDWrath;
+import com.megacrit.cardcrawl.cards.green.*;
 import com.megacrit.cardcrawl.cards.purple.Blasphemy;
+import com.megacrit.cardcrawl.cards.purple.Brilliance;
+import com.megacrit.cardcrawl.cards.purple.DeusExMachina;
 import com.megacrit.cardcrawl.cards.purple.Wish;
-import com.megacrit.cardcrawl.cards.red.SearingBlow;
+import com.megacrit.cardcrawl.cards.red.*;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.potions.RegenPotion;
 import com.megacrit.cardcrawl.powers.*;
+import com.megacrit.cardcrawl.powers.watcher.FreeAttackPower;
 import com.megacrit.cardcrawl.powers.watcher.MantraPower;
 
 import java.util.Random;
 import com.megacrit.cardcrawl.actions.defect.CompileDriverAction;
+import com.megacrit.cardcrawl.relics.SneckoEye;
+import com.megacrit.cardcrawl.vfx.stance.WrathParticleEffect;
 
 public class Test1 {
     public static void main(String[] args) {
@@ -76,5 +85,23 @@ public class Test1 {
         //AllForOne
         //SearingBlow
         //InfiniteBlades
+        //DeusExMachina
+        //LimitBreak
+        //Turbo
+        //SecondWind
+        //Rupture
+        //SneckoEye
+        //CorruptionPower
+        //Corruption
+        //FreeAttackPower
+        //Anger
+        //Evolve
+        //Brilliance
+        //SeverSoul
+        //EscapePlan
+        //WellLaidPlans
+        //HandOfGreed
+        //StormOfSteel
+        //Seek
     }
 }

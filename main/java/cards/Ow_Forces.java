@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.cards.purple.ForeignInfluence;
 import com.megacrit.cardcrawl.cards.red.InfernalBlade;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import pathes.AbstractCardEnum;
@@ -29,8 +30,7 @@ public class Ow_Forces extends CustomCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         int[] arr = {1, 2, 3, 4};
-        Random r = new Random();
-        int index = r.nextInt(arr.length);
+        int index = AbstractDungeon.cardRandomRng.random(arr.length - 1);
         int num = arr[index];
         switch (num) {
             case 1:

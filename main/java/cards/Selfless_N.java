@@ -30,7 +30,7 @@ public class Selfless_N extends CustomCard {
 
     public Selfless_N() {
         super(ID, cardStrings.NAME, "img/cards_Seles/Selfless_N.png", 3, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.ALL_ENEMY);
-        this.baseDamage = 4;
+        this.baseDamage = 5;
         this.baseMagicNumber = 5;
         this.magicNumber = this.baseMagicNumber;
         this.isMultiDamage = true;

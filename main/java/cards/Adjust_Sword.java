@@ -34,7 +34,7 @@ public class Adjust_Sword extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            this.cardsToPreview.upgrade();
+            //this.cardsToPreview.upgrade();
             upgradeMagicNumber(1);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();

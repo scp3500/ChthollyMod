@@ -23,7 +23,7 @@ public class Remember_N extends CustomCard {
 
     public Remember_N() {
         super(ID, cardStrings.NAME, "img/cards_Seles/Remember_N.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 2;
+        this.baseMagicNumber = 4;
         this.magicNumber = this.baseMagicNumber;
         this.baseBlock = 0;
     }

@@ -24,15 +24,14 @@ public class Combo_Attack extends CustomCard{
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String IMG_PATH = "img/cards_Seles/Combo_Attack.png";
     private static final int COST = 1;
-    private static final int ATTACK_DMG = 1;
-    private static final int UPGRADE_PLUS_DMG = 1;
+    private static final int ATTACK_DMG = 2;
     public static final String ID = "Combo_Attack";
     //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
     public Combo_Attack() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.BASIC, CardTarget.ENEMY);
         //添加基础攻击标签和将伤害设为5
         this.baseDamage = ATTACK_DMG;
-        this.baseMagicNumber = 5;
+        this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
     }
 
@@ -61,9 +60,8 @@ public class Combo_Attack extends CustomCard{
     public void upgrade() {
         //卡牌升级后的效果
         if (!this.upgraded) {
-            //更改名字和提高1点伤害
             upgradeName();
-            upgradeDamage(UPGRADE_PLUS_DMG);
+            upgradeMagicNumber(1);
         }
     }
 }

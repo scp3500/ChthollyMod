@@ -235,6 +235,21 @@ public class selesMod implements RelicGetSubscriber, PostPowerApplySubscriber, P
         this.cardsToAdd.add(new Magic_Fire());
         this.cardsToAdd.add(new Emergency_Cooking());
         this.cardsToAdd.add(new Magic_Focus());
+        this.cardsToAdd.add(new Butter_Cake());
+        this.cardsToAdd.add(new Magic_Cover());
+        this.cardsToAdd.add(new Spin_Destiny());
+        this.cardsToAdd.add(new Magic_Freely());
+        this.cardsToAdd.add(new Magic_Flammability());
+        this.cardsToAdd.add(new Magic_Boundless());
+        this.cardsToAdd.add(new Magic_Hash());
+        this.cardsToAdd.add(new Magic_Chain());
+        this.cardsToAdd.add(new Alert_N());
+        this.cardsToAdd.add(new Stop_N());
+        this.cardsToAdd.add(new Confidence_N());
+        this.cardsToAdd.add(new Sleep_N());
+        this.cardsToAdd.add(new Probe_N());
+        this.cardsToAdd.add(new Magic_Draw());
+        this.cardsToAdd.add(new Experience_N());
         UnlockTracker.unlockCard("Strike_Seles");
         UnlockTracker.unlockCard("Defend_Seles");
         UnlockTracker.unlockCard("Combo_Attack");
@@ -296,6 +311,21 @@ public class selesMod implements RelicGetSubscriber, PostPowerApplySubscriber, P
         UnlockTracker.unlockCard("Magic_Fire");
         UnlockTracker.unlockCard("Emergency_Cooking");
         UnlockTracker.unlockCard("Magic_Focus");
+        UnlockTracker.unlockCard("Butter_Cake");
+        UnlockTracker.unlockCard("Magic_Cover");
+        UnlockTracker.unlockCard("Spin_Destiny");
+        UnlockTracker.unlockCard("Magic_Freely");
+        UnlockTracker.unlockCard("Magic_Flammability");
+        UnlockTracker.unlockCard("Magic_Boundless");
+        UnlockTracker.unlockCard("Magic_Hash");
+        UnlockTracker.unlockCard("Magic_Chain");
+        UnlockTracker.unlockCard("Alert_N");
+        UnlockTracker.unlockCard("Stop_N");
+        UnlockTracker.unlockCard("Confidence_N");
+        UnlockTracker.unlockCard("Sleep_N");
+        UnlockTracker.unlockCard("Probe_N");
+        UnlockTracker.unlockCard("Magic_Draw");
+        UnlockTracker.unlockCard("Experience_N");
     }
 
     //添加一度

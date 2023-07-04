@@ -311,5 +311,80 @@
     "NAME": "魔力专注",
     "DESCRIPTION": "每回合获得一张 *专注 。 获得 !M! 层 失忆 ",
     "UPGRADE_DESCRIPTION": "每回合获得一张 *专注 。 获得 !M! 层 失忆 。 固有 "
+  },
+  "Butter_Cake": {
+    "NAME": "黄油蛋糕",
+    "DESCRIPTION": "本回合力量翻倍, 将一张 *粘液 加入手牌",
+    "UPGRADE_DESCRIPTION": "本回合力量翻倍, 将一张 *粘液 加入手牌"
+  },
+  "Magic_Cover": {
+    "NAME": "魔力覆盖",
+    "DESCRIPTION": "消耗手牌中所有非\"魔力系列\"牌,每消耗一张牌,抽一张牌。",
+    "UPGRADE_DESCRIPTION": "消耗手牌中所有非\"魔力系列\"牌,每消耗一张牌,抽一张牌。 NL  保留 "
+  },
+  "Spin_Destiny": {
+    "NAME": "扭转乾坤",
+    "DESCRIPTION": "每当你获得虚弱时，获得 !M! 点 力量 。 NL 每当你获得易伤时，获得 !M! 点 敏捷 。",
+    "UPGRADE_DESCRIPTION": "每当你获得虚弱时，获得 !M! 点 力量 。 NL 每当你获得易伤时，获得 !M! 点 敏捷 。"
+  },
+  "Magic_Freely": {
+    "NAME": "魔力纵横",
+    "DESCRIPTION": " 失忆 层数为偶数时,给予 !M! 层 虚弱 。 NL  失忆 层数为奇数时,给予 !M! 层 易伤 。",
+    "UPGRADE_DESCRIPTION": " 失忆 层数为偶数时,给予 !M! 层 易伤 。 NL  失忆 层数为奇数时,给予 !M! 层 虚弱 。"
+  },
+  "Magic_Flammability": {
+    "NAME": "魔力易燃",
+    "DESCRIPTION": "造成 !D! 伤害。 NL 选择一张手牌 消耗 。 NL 获得 !M! 层 失忆 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 伤害。 NL 选择一张手牌 消耗 。 NL 获得 !M! 层 失忆 "
+  },
+  "Magic_Boundless": {
+    "NAME": "魔力无限",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。 NL 在弃牌堆放入一张此牌的复制品。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。 NL 在弃牌堆放入一张此牌的复制品。"
+  },
+  "Magic_Hash": {
+    "NAME": "魔力骤然",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 给予 1 层 易伤 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 给予 2 层 易伤 "
+  },
+  "Magic_Chain": {
+    "NAME": "魔力连锁",
+    "DESCRIPTION": "每当你抽到一张 \"魔力系列\"牌 时，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "每当你抽到一张 \"魔力系列\"牌 时，抽 !M! 张牌。 固有 。"
+  },
+  "Alert_N": {
+    "NAME": "义无反顾",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 额外造成当前 失忆 总层数的伤害。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 额外造成当前 失忆 总层数的伤害。"
+  },
+  "Stop_N": {
+    "NAME": "戒备",
+    "DESCRIPTION": " 消耗 手牌中所有非技能牌。 NL 造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " 消耗 手牌中所有非技能牌。 NL 造成 !D! 点伤害。"
+  },
+  "Confidence_N": {
+    "NAME": "信心",
+    "DESCRIPTION": "抽1张牌。 NL 如果抽到的是攻击牌，获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "抽1张牌。 NL 如果抽到的是攻击牌，获得 !B! 点 格挡 。"
+  },
+  "Sleep_N": {
+    "NAME": "凝聚",
+    "DESCRIPTION": " 获得 !M! 层 杀意 。 NL  消耗 ",
+    "UPGRADE_DESCRIPTION": " 获得 !M! 层 杀意 。 NL  消耗 "
+  },
+  "Probe_N": {
+    "NAME": "试探",
+    "DESCRIPTION": " 造成 !D! 点伤害。 NL 选择两张牌 保留 ",
+    "UPGRADE_DESCRIPTION": " 造成 !D! 点伤害。 NL 选择两张牌 保留 "
+  },
+  "Magic_Draw": {
+    "NAME": "魔力汲取",
+    "DESCRIPTION": " 造成 !D! 点伤害。 NL  斩杀 时,恢复 !M! 点生命",
+    "UPGRADE_DESCRIPTION": " 造成 !D! 点伤害。 NL  斩杀 时,恢复 !M! 点生命"
+  },
+  "Experience_N": {
+    "NAME": "孤注一掷",
+    "DESCRIPTION": "丢弃所有手牌, 从抽牌堆选择 !M! 张牌加入手牌 NL  消耗 。 保留 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌, 从抽牌堆选择 !M! 张牌加入手牌 NL  消耗 。 保留 。"
   }
 }

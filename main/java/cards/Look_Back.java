@@ -15,8 +15,8 @@ public class Look_Back extends CustomCard {
     public static final String ID = "Look_Back";
 
     public Look_Back() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Look_Back.png", 0, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 1;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Look_Back.png", 0, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
     }

@@ -29,10 +29,10 @@ public class EndTurnDeathPower_New extends AbstractPower {
     public void atStartOfTurn() {
         this.flash();
         this.addToBot(new VFXAction(new LightningEffect(this.owner.hb.cX, this.owner.hb.cY)));
-        if (this.owner.getPower("The_Happiest") == null && this.owner.currentHealth > 30) {
-            this.addToBot(new LoseHPAction(this.owner, this.owner, 30));
-        } else {
+        if (this.owner.getPower("The_Happiest") != null && this.owner.currentHealth <= 30) {
             this.addToBot(new LoseHPAction(this.owner, this.owner, 0));
+        } else {
+            this.addToBot(new LoseHPAction(this.owner, this.owner, 30));
         }
         this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, "EndTurnDeathPower_New"));
     }

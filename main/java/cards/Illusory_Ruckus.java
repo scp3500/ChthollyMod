@@ -15,6 +15,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.watcher.FreeAttackPower;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.BorderLongFlashEffect;
 import com.megacrit.cardcrawl.vfx.combat.VerticalAuraEffect;
@@ -28,8 +29,8 @@ public class Illusory_Ruckus extends CustomCard {
     public static final String ID = "Illusory_Ruckus";
 
     public Illusory_Ruckus() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Illusory_Ruckus.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 2;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Illusory_Ruckus.png", 3, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
     }
 
@@ -57,12 +58,13 @@ public class Illusory_Ruckus extends CustomCard {
                 }
             }
         }
+        addToBot(new ApplyPowerAction(p,p,new FreeAttackPower(p,999)));
     }
 
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeBaseCost(1);
+            upgradeBaseCost(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }
