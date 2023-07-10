@@ -1,0 +1,114 @@
+{
+  "GuiltyPower": {
+    "NAME": "負罪:",
+    "DESCRIPTIONS": [
+      "獲得等層數的力量,回合結束時對自己增加等層數的纏繞"
+    ]
+  },
+  "Fearless_Of_Death": {
+    "NAME": "無懼生死",
+    "DESCRIPTIONS": [
+      "每打出壹張任意牌, 抽 #b",
+      " 張牌。在妳的回合開始時，妳失去 5 點生命",
+      "每打出壹張任意牌, 抽 #b",
+      " 張牌。在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)",
+      " 點生命。"
+    ]
+  },
+  "Near_Death": {
+    "NAME": "殺意",
+    "DESCRIPTIONS": [
+      "每抽到壹張 #y攻擊牌, NL 對所有敵人造成 #b",
+      " 點傷害 。持續時間 #b",
+      " 回合。",
+      " 回合。"
+    ]
+  },
+  "Lose_Memory": {
+    "NAME": "失憶",
+    "DESCRIPTIONS": [
+      "當妳每次獲得或失去 #y失憶 後, 若層數大于5點,則獲得 #b2 點 #y力量 。",
+      "當妳的 #y失憶層數 不低于 10 時, 下回合受到 30 傷害"
+    ]
+  },
+  "Illusory_Ruckus": {
+    "NAME": "妄想紛擾",
+    "DESCRIPTIONS": [
+      "攻擊牌耗能變爲 #b0。 妳每打出壹張 #y攻擊牌 ，都將其 #y消耗 。",
+      "妳每打出壹張 #y攻擊牌 ，都將其 #y消耗 。"
+    ]
+  },
+  "EndTurnDeathPower_New": {
+    "NAME": "轉世",
+    "DESCRIPTIONS": [
+      "在妳的回合開始受到30點傷害。"
+    ]
+  },
+  "Magic_Out": {
+    "NAME": "魔力逸散",
+    "DESCRIPTIONS": [
+      "在妳的回合開始時，獲得 #b",
+      " 層 #y失憶 並抽 #b",
+      " 張牌 ",
+      " 在妳的回合開始時獲得 ",
+      " 。"
+    ]
+  },
+  "The_Happiest": {
+    "NAME": "不朽",
+    "DESCRIPTIONS": [
+      "受到單次致命攻擊不會死亡"
+    ]
+  },
+  "Eroded": {
+    "NAME": "侵蝕",
+    "DESCRIPTIONS": [
+      "在回合開始時，獲得 #b",
+      " 層 #y點穴 。(注: 每次給予侵蝕時刷新點穴層數)"
+    ]
+  },
+  "Guard": {
+    "NAME": "守護",
+    "DESCRIPTIONS": [
+      "本場戰鬥中獲得的 #y失憶 都會轉化爲 #y金幣 "
+    ]
+  },
+  "Unforgettable": {
+    "NAME": "刻印",
+    "DESCRIPTIONS": [
+      "每次獲取 #y失憶 時, 獲得 #b",
+      " 點 #y格擋 "
+    ]
+  },
+  "Magic_Increase": {
+    "NAME": "魔力增幅",
+    "DESCRIPTIONS": [
+      "妳打出的\"魔力系列\"牌會打出兩次"
+    ]
+  },
+  "Magic_Focus": {
+    "NAME": "魔力專注",
+    "DESCRIPTIONS": [
+      "在妳的回合開始時，得到 #b",
+      " 張 #y專注 。",
+      " 張 #y專注 。"
+    ]
+  },
+  "Spin_Destiny": {
+    "NAME": "扭轉乾坤",
+    "DESCRIPTIONS": [
+      "每當妳獲得易傷時，獲得 #b",
+      " 點 #y敏捷 。",
+      "每當妳獲得虛弱時，獲得 #b",
+      " 點 #y力量 。"
+    ]
+  },
+  "Magic_Chain": {
+    "NAME": "魔力連鎖",
+    "DESCRIPTIONS": [
+      "每當妳抽到壹張 #y魔力 牌，抽壹張牌。",
+      "每當妳抽到壹張 #y魔力 牌，抽 #b",
+      " 張牌。"
+    ]
+  }
+}

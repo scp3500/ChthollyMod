@@ -1,0 +1,390 @@
+{
+  "Strike_Seles": {
+    "NAME": "打擊",
+    "DESCRIPTION": "造成 !D! 點傷害。"
+  },
+  "Defend_Seles": {
+    "NAME": "防禦",
+    "DESCRIPTION": "獲得 !B! 點格擋。"
+  },
+  "SavePower": {
+    "NAME": "專注",
+    "DESCRIPTION": " 保留 。 NL 妳的下壹張攻擊牌造成 !M! 點額外傷害。"
+  },
+  "Printf": {
+    "NAME": "以身作則",
+    "DESCRIPTION": " 對所有敵人造成 !D! 點傷害。 NL 將壹張 *專注 加入手牌 。"
+  },
+  "Combo_Attack": {
+    "NAME": "連續攻擊",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 !M! 次。"
+  },
+  "Brilliance_N": {
+    "NAME": "光輝",
+    "DESCRIPTION": "獲得 !M! 點 力量 。 NL 抽 !M! 張牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "獲得 !M! 點 力量 。 NL 抽 !M! 張牌。 NL 消耗 。"
+  },
+  "Practice_Cooking": {
+    "NAME": "廚藝精進",
+    "DESCRIPTION": "回複 !M! 點 生命 。 NL 每打出壹次，這張牌在本局遊戲中的回複量永久性增加 1 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "回複 !M! 點 生命 。 NL 每打出壹次，這張牌在本局遊戲中的回複量永久性增加 1 。 NL 消耗 。"
+  },
+  "Slash": {
+    "NAME": "斬擊",
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 給予 !M! 層 虛弱 。 NL 給予 !M! 層 易傷 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害。 NL 給予 !M! 層 虛弱 。 NL 給予 !M! 層 易傷 。"
+  },
+  "Touch_And_Go": {
+    "NAME": "壹觸即發",
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 若敵人的意圖爲攻擊, 攻擊次數加 !M! 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害。NL 若敵人的意圖爲攻擊, 攻擊次數加 !M! 。"
+  },
+  "Flying_Slash": {
+    "NAME": "飛空斬",
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 獲得 !B! 點格擋。 NL 抽 !M! 張牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害。 NL 獲得 !B! 點格擋。 NL 抽 !M! 張牌。"
+  },
+  "Insight_N": {
+    "NAME": "洞察弱點",
+    "DESCRIPTION": "獲得 !B! 點格擋。 NL !M! %概率造成999傷害。",
+    "UPGRADE_DESCRIPTION": "獲得 !B! 點格擋。 NL !M! %概率造成999傷害。"
+  },
+  "Adjust_Sword": {
+    "NAME": "調整聖劍",
+    "DESCRIPTION": " 獲得 !M! 點敏捷。 NL 在妳的手牌中加入 1 張 *奇迹 。",
+    "UPGRADE_DESCRIPTION": " 獲得 !M! 點敏捷。 NL 在妳的手牌中加入 1 張 *奇迹 。"
+  },
+  "Get_Energy": {
+    "NAME": "魔力聚集",
+    "DESCRIPTION": "獲得 [E] [E] 。 NL 獲得 !M! 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "獲得 [E] [E] [E] 。 NL 獲得 !M! 層 失憶 "
+  },
+  "On_Rush": {
+    "NAME": "沖動",
+    "DESCRIPTION": "抽 3 張牌。 NL 獲得 !M! 層 易傷 。",
+    "UPGRADE_DESCRIPTION": "抽 3 張牌。 NL 獲得 !M! 層 易傷 。"
+  },
+  "More_Amazonian": {
+    "NAME": "愈戰愈勇",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 這張牌每被打出壹次，在本場戰鬥中其傷害次數增加 1 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 這張牌每被打出壹次，在本場戰鬥中其傷害次數增加 1 。"
+  },
+  "Fearless_Of_Death": {
+    "NAME": "無懼生死",
+    "DESCRIPTION": "每打出壹張任意牌, 抽 !M! 張牌。 NL 在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)。",
+    "UPGRADE_DESCRIPTION": "每打出壹張任意牌, 抽 !M! 張牌。 NL 在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)。"
+  },
+  "Chop_Of_Death": {
+    "NAME": "死斬",
+    "DESCRIPTION": " 造成 !D! 點傷害 NL 獲得 !M! 層 殺意 。",
+    "UPGRADE_DESCRIPTION": " 造成 !D! 點傷害 NL 獲得 !M! 層 殺意 。"
+  },
+  "The_Last_Bullets": {
+    "NAME": "昙花壹現",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 這張牌每被打出壹次，在本場戰鬥中其傷害次數減少 1 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 這張牌每被打出壹次，在本場戰鬥中其傷害次數減少 1 。"
+  },
+  "Magic_Block": {
+    "NAME": "魔力屏障",
+    "DESCRIPTION": " 獲得 !B! 點格擋。 NL 獲得 3 層 失憶 。 NL 獲得 !M! 層 人工制品 。",
+    "UPGRADE_DESCRIPTION": " 獲得 !B! 點格擋。 NL 獲得 3 層 失憶 。 NL 獲得 !M! 層 人工制品 。"
+  },
+  "Scarborough_Fair": {
+    "NAME": "斯卡布羅集市",
+    "DESCRIPTION": "從下列幾張牌中選擇壹張:  NL *歐芹 、 *鼠尾草 、 NL *迷叠香 、 *百裏香 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": "從下列幾張牌中選擇壹張:  NL *歐芹+ 、 *鼠尾草+ 、 NL *迷叠香+ 、 *百裏香+ 。 NL 消耗 "
+  },
+  "Parsley_N": {
+    "NAME": "歐芹",
+    "DESCRIPTION": " 獲得 !M! 層 再生 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": " 獲得 !M! 層 再生 。 NL 消耗 "
+  },
+  "Sage_N": {
+    "NAME": "鼠尾草",
+    "DESCRIPTION": " 獲得 !M! 點 臨時力量 。",
+    "UPGRADE_DESCRIPTION": " 獲得 !M! 點 臨時力量 。"
+  },
+  "Rosemary_N": {
+    "NAME": "迷叠香",
+    "DESCRIPTION": " 失去 !M! 層 失憶 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": " 失去 !M! 層 失憶 。 NL 消耗 "
+  },
+  "Thyme_N": {
+    "NAME": "百裏香",
+    "DESCRIPTION": " 獲得 無懼生死 的能力。 NL 獲得 8 層 失憶 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": " 獲得 無懼生死 的能力。 NL 獲得 8 層 失憶 。 NL 消耗 "
+  },
+  "Seek_N": {
+    "NAME": "尋覓",
+    "DESCRIPTION": "妳的棄牌堆中每有 !M! 張牌，獲得壹點 [E] 。",
+    "UPGRADE_DESCRIPTION": "妳的棄牌堆中每有 !M! 張牌，獲得壹點 [E] 。"
+  },
+  "Remained_Image": {
+    "NAME": "殘影劍",
+    "DESCRIPTION": "妳在這個回合內每打出過壹張技能牌，就造成壹次 !D! 點傷害。",
+    "UPGRADE_DESCRIPTION": "妳在這個回合內每打出過壹張技能牌，就造成壹次 !D! 點傷害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （妳本回合打出過",
+      " 張技能牌。）",
+      " 張技能牌。）"
+    ]
+  },
+  "Illusory_Ruckus": {
+    "NAME": "妄想紛擾",
+    "DESCRIPTION": "所有攻擊牌耗能變爲0。 NL 所有攻擊牌在被打出時被 消耗 。",
+    "UPGRADE_DESCRIPTION": "所有攻擊牌耗能變爲0。 NL 所有攻擊牌在被打出時被 消耗 。"
+  },
+  "Wings_Of_Fairy": {
+    "NAME": "妖精之翼",
+    "DESCRIPTION": "獲得 飛行~ 的能力。",
+    "UPGRADE_DESCRIPTION": "獲得 飛行~ 的能力。"
+  },
+  "Ow_Forces": {
+    "NAME": "皆有可能",
+    "DESCRIPTION": " 從原版的幾張隨機牌中隨機獲取壹張 。 NL 這張牌在本回合耗能變爲0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 從原版的幾張隨機牌中隨機獲取壹張 。 NL 這張牌在本回合耗能變爲0。 NL 消耗 。"
+  },
+  "Endure_Eve": {
+    "NAME": "速戰",
+    "DESCRIPTION": " 對所有敵人造成 !D! 點傷害 NL 獲得 !M! 層 殺意 。",
+    "UPGRADE_DESCRIPTION": " 對所有敵人造成 !D! 點傷害 NL 獲得 !M! 層 殺意 。"
+  },
+  "Simplify_Life": {
+    "NAME": "斷舍離",
+    "DESCRIPTION": " 消耗壹張隨機手牌 NL 將壹張隨機牌加入手牌 NL 獲得 !M! 層 失憶 。 ",
+    "UPGRADE_DESCRIPTION": " 消耗壹張隨機手牌 NL 將壹張隨機牌加入手牌 NL 獲得 !M! 層 失憶 。 "
+  },
+  "Fully_Armed": {
+    "NAME": "全副武裝",
+    "DESCRIPTION": " 獲得 !B! 點 格擋 。 NL 獲得 !M! 層 金屬化 。",
+    "UPGRADE_DESCRIPTION": " 獲得 !B! 點 格擋 。 NL 獲得 !M! 層 金屬化 。"
+  },
+  "Tenacity_N": {
+    "NAME": "堅韌",
+    "DESCRIPTION": "只有在手牌中至少有壹張牌是狀態牌或詛咒牌時才能被打出。 NL 對所有敵人造成 !D! 點傷害。",
+    "UPGRADE_DESCRIPTION": "只有在手牌中至少有壹張牌是狀態牌或詛咒牌時才能被打出。 NL 對所有敵人造成 !D! 點傷害。",
+    "EXTENDED_DESCRIPTION": [
+      "我的手牌中沒有狀態牌或詛咒牌"
+    ]
+  },
+  "Recall_N": {
+    "NAME": "追憶",
+    "DESCRIPTION": "抽當前 失憶 層數的牌 NL 上限爲 !M! ",
+    "UPGRADE_DESCRIPTION": "抽當前 失憶 層數 的牌 NL 上限爲 !M! "
+  },
+  "illusion_Body": {
+    "NAME": "幻影",
+    "DESCRIPTION": "將妳手牌中的壹張技能牌複制壹張",
+    "UPGRADE_DESCRIPTION": "將妳手牌中的壹張技能牌複制兩張"
+  },
+  "Magic_Tap": {
+    "NAME": "魔力打擊",
+    "DESCRIPTION": "造成 !D! 點傷害, 獲得 !M! 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害, 獲得 !M! 層 失憶 "
+  },
+  "Relive_N": {
+    "NAME": "涅槃重生",
+    "DESCRIPTION": "根據當前 失憶 層數的壹半 NL 增加血上限 NL 失去所有的 失憶 。 NL  消耗 ",
+    "UPGRADE_DESCRIPTION": "保留 NL 根據當前 失憶 層數的壹半 NL 增加血上限 NL 失去所有的 失憶 。 NL  消耗 "
+  },
+  "Magic_Out": {
+    "NAME": "魔力逸散",
+    "DESCRIPTION": "在妳的回合開始時, NL 妳獲得 !M! 層 失憶 , NL 抽 !M! 張牌, NL 獲得 [E] 。",
+    "UPGRADE_DESCRIPTION": "在妳的回合開始時, NL 妳獲得 !M! 層 失憶 , NL 抽 !M! 張牌, NL 獲得 [E] 。 固有 "
+  },
+  "Hone_N": {
+    "NAME": "身經百戰",
+    "DESCRIPTION": "造成 !D! 傷害 NL 下回合額外抽 !M! 張牌",
+    "UPGRADE_DESCRIPTION": "造成 !D! 傷害 NL 下回合額外抽 !M! 張牌"
+  },
+  "The_Happiest":{
+    "NAME": "星神形態",
+    "DESCRIPTION": "獲得 !M! 層 不朽 。 NL  保留 。",
+    "UPGRADE_DESCRIPTION": "獲得 !M! 層 不朽 。 NL  保留 。"
+  },
+  "Memory_Erosion":{
+    "NAME": "記憶侵蝕",
+    "DESCRIPTION": "獲得 1 層 失憶 。 NL 給予 !M! 層 侵蝕 ",
+    "UPGRADE_DESCRIPTION": "獲得 1 層 失憶 。 NL 給予 !M! 層 侵蝕 "
+  },
+  "Some_Kicks":{
+    "NAME": "妖精連斬",
+    "DESCRIPTION": "對隨機敵人造成 !D! 點傷害X次。",
+    "UPGRADE_DESCRIPTION": "對隨機敵人造成 !D! 點傷害X次。"
+  },
+  "Sword_LPT": {
+    "NAME": "聖劍:希比爾斯",
+    "DESCRIPTION": "本場戰鬥中妳將不再獲得 失憶 ,改爲獲得金幣 NL 虛無 。",
+    "UPGRADE_DESCRIPTION": "本場戰鬥中妳將不再獲得 失憶 ,改爲獲得金幣 。"
+  },
+  "Remember_N": {
+    "NAME": "銘記",
+    "DESCRIPTION": "獲得當前 失憶 層數 !M! 倍的 格擋 。 NL 固有 。",
+    "UPGRADE_DESCRIPTION": "獲得當前 失憶 層數 !M! 倍的 格擋 。 NL 固有 。"
+  },
+  "Selfless_N": {
+    "NAME": "奮不顧身",
+    "DESCRIPTION": "對所有敵人造成 !D! 點 傷害 !M! 次 NL 獲得 3 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "對所有敵人造成 !D! 點 傷害 !M! 次 NL 獲得 3 層 失憶 "
+  },
+  "Look_Back": {
+    "NAME": "回首",
+    "DESCRIPTION": "從棄牌堆中選擇 !M! 張牌放入妳的手牌。 NL  消耗 。",
+    "UPGRADE_DESCRIPTION": "從棄牌堆中選擇 !M! 張牌放入妳的手牌。 NL  消耗 。"
+  },
+  "Reminiscing_Past": {
+    "NAME": "追溯",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 失去 !M! 層 失憶 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 NL 失去 !M! 層 失憶 。"
+  },
+  "Fight_Battle": {
+    "NAME": "浴血奮戰",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 抽 !M! 張牌 NL 獲得 !M! 層 失憶 。 NL  虛無 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 NL 抽 !M! 張牌 NL 獲得 !M! 層 失憶 。 NL  虛無 。"
+  },
+  "Magic_Overflow": {
+    "NAME": "魔力湧現",
+    "DESCRIPTION": "獲得 [E] 。抽 3 張牌。 NL 獲得 3 層 失憶 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": "獲得 [E] [E] 。抽 3 張牌。 NL 獲得 3 層 失憶 。 NL 消耗 "
+  },
+  "Concern_N": {
+    "NAME": "關切",
+    "DESCRIPTION": "抽 !M! 張牌, 選擇壹張手牌升級 NL 獲得 !M! 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "抽 !M! 張牌, 升級所有手牌 NL 獲得 !M! 層 失憶 "
+  },
+  "Narrow_Escape": {
+    "NAME": "躲閃",
+    "DESCRIPTION": "獲得 !B! 點 格擋 。 NL 獲得 !M! 層 虛弱 。",
+    "UPGRADE_DESCRIPTION": "獲得 !B! 點 格擋 。 NL 獲得 !M! 層 虛弱 。"
+  },
+  "Unforgettable_N": {
+    "NAME": "刻骨銘心",
+    "DESCRIPTION": "每次獲取失憶時, 獲得 !M! 點 格擋 ",
+    "UPGRADE_DESCRIPTION": "每次獲取失憶時, 獲得 !M! 點 格擋 "
+  },
+  "Redemption_N": {
+    "NAME": "救贖",
+    "DESCRIPTION": "選擇手牌進行 消耗 , 每消耗壹張卡獲得1層 失憶 。 NL  消耗 ",
+    "UPGRADE_DESCRIPTION": "選擇手牌進行 消耗 , 每消耗壹張卡獲得1層 失憶 。 NL  消耗 "
+  },
+  "Many_Lives": {
+    "NAME": "前世今生",
+    "DESCRIPTION": "在本場戰鬥中, 所有 消耗 牌 不再 消耗 ",
+    "UPGRADE_DESCRIPTION": "在本場戰鬥中, 所有 消耗 牌 不再 消耗 , 所有非 消耗 牌會 消耗 "
+  },
+  "Avg_Strike": {
+    "NAME": "均衡打擊",
+    "DESCRIPTION": "造成 !D! 傷害, NL  獲得 !M! 層 失憶 , NL 失去 !M! 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 傷害, NL  獲得 !M! 層 失憶 , NL 失去 !M! 層 失憶 "
+  },
+  "Magic_Increase": {
+    "NAME": "魔力增幅",
+    "DESCRIPTION": "妳打出的\"魔力系列\"牌會打出兩次",
+    "UPGRADE_DESCRIPTION": "妳打出的\"魔力系列\"牌會打出兩次"
+  },
+  "Magic_Illusion": {
+    "NAME": "魔力鋒芒",
+    "DESCRIPTION": "造成 !D! 傷害 !M! 次。 NL 抽 !M! 張牌。 NL 丟棄抽到的牌中非\"魔力系列\"的牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 傷害 !M! 次。 NL 抽 !M! 張牌。 NL 丟棄抽到的牌中非\"魔力系列\"的牌。"
+  },
+  "Magic_Circle": {
+    "NAME": "魔力循環",
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 將棄牌堆中所有\"魔力系列\"的牌放入妳的手牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害。 NL 將棄牌堆中所有\"魔力系列\"的牌放入妳的手牌。"
+  },
+  "Magic_Avoid": {
+    "NAME": "魔力極速",
+    "DESCRIPTION": "獲得 !B! 點 格擋。 NL 抽 !M! 張 牌 NL 獲得 2 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "獲得 !B! 點 格擋。 NL 抽 !M! 張 牌 NL 獲得 2 層 失憶 "
+  },
+  "Magic_Fire": {
+    "NAME": "魔力燃盡",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 能被多次 升級 。"
+  },
+  "Emergency_Cooking": {
+    "NAME": "緊急烹饪",
+    "DESCRIPTION": "獲得 [E] 。 NL 回複 !M! 點生命 NL  消耗",
+    "UPGRADE_DESCRIPTION": "獲得 [E] 。 NL 回複 !M! 點生命 NL  消耗"
+  },
+  "Magic_Focus": {
+    "NAME": "魔力專注",
+    "DESCRIPTION": "每回合獲得壹張 *專注 。 獲得 !M! 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "每回合獲得壹張 *專注 。 獲得 !M! 層 失憶 。 固有 "
+  },
+  "Butter_Cake": {
+    "NAME": "黃油蛋糕",
+    "DESCRIPTION": "本回合力量翻倍, 將壹張 *粘液 加入手牌",
+    "UPGRADE_DESCRIPTION": "本回合力量翻倍, 將壹張 *粘液 加入手牌"
+  },
+  "Magic_Cover": {
+    "NAME": "魔力覆蓋",
+    "DESCRIPTION": "消耗手牌中所有非\"魔力系列\"牌,每消耗壹張牌,抽壹張牌。",
+    "UPGRADE_DESCRIPTION": "消耗手牌中所有非\"魔力系列\"牌,每消耗壹張牌,抽壹張牌。 NL  保留 "
+  },
+  "Spin_Destiny": {
+    "NAME": "扭轉乾坤",
+    "DESCRIPTION": "每當妳獲得虛弱時，獲得 !M! 點 力量 。 NL 每當妳獲得易傷時，獲得 !M! 點 敏捷 。",
+    "UPGRADE_DESCRIPTION": "每當妳獲得虛弱時，獲得 !M! 點 力量 。 NL 每當妳獲得易傷時，獲得 !M! 點 敏捷 。"
+  },
+  "Magic_Freely": {
+    "NAME": "魔力縱橫",
+    "DESCRIPTION": " 失憶 層數爲偶數時,給予 !M! 層 虛弱 。 NL  失憶 層數爲奇數時,給予 !M! 層 易傷 。",
+    "UPGRADE_DESCRIPTION": " 失憶 層數爲偶數時,給予 !M! 層 易傷 。 NL  失憶 層數爲奇數時,給予 !M! 層 虛弱 。"
+  },
+  "Magic_Flammability": {
+    "NAME": "魔力易燃",
+    "DESCRIPTION": "造成 !D! 傷害。 NL 選擇壹張手牌 消耗 。 NL 獲得 !M! 層 失憶 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 傷害。 NL 選擇壹張手牌 消耗 。 NL 獲得 !M! 層 失憶 "
+  },
+  "Magic_Boundless": {
+    "NAME": "魔力無限",
+    "DESCRIPTION": "造成 !D! 點傷害。 NL 抽 !M! 張牌。 NL 在棄牌堆放入壹張此牌的複制品。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害。 NL 抽 !M! 張牌。 NL 在棄牌堆放入壹張此牌的複制品。"
+  },
+  "Magic_Hash": {
+    "NAME": "魔力驟然",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 給予 1 層 易傷 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 給予 2 層 易傷 "
+  },
+  "Magic_Chain": {
+    "NAME": "魔力連鎖",
+    "DESCRIPTION": "每當妳抽到壹張 \"魔力系列\"牌 時，抽 !M! 張牌。",
+    "UPGRADE_DESCRIPTION": "每當妳抽到壹張 \"魔力系列\"牌 時，抽 !M! 張牌。 固有 。"
+  },
+  "Alert_N": {
+    "NAME": "義無反顧",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 額外造成當前 失憶 總層數的傷害。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 額外造成當前 失憶 總層數的傷害。"
+  },
+  "Stop_N": {
+    "NAME": "戒備",
+    "DESCRIPTION": " 消耗 手牌中所有非技能牌。 NL 造成 !D! 點傷害。",
+    "UPGRADE_DESCRIPTION": " 消耗 手牌中所有非技能牌。 NL 造成 !D! 點傷害。"
+  },
+  "Confidence_N": {
+    "NAME": "信心",
+    "DESCRIPTION": "抽1張牌。 NL 如果抽到的是攻擊牌，獲得 !B! 點 格擋 。",
+    "UPGRADE_DESCRIPTION": "抽1張牌。 NL 如果抽到的是攻擊牌，獲得 !B! 點 格擋 。"
+  },
+  "Sleep_N": {
+    "NAME": "凝聚",
+    "DESCRIPTION": " 獲得 !M! 層 殺意 。 NL  消耗 ",
+    "UPGRADE_DESCRIPTION": " 獲得 !M! 層 殺意 。 NL  消耗 "
+  },
+  "Probe_N": {
+    "NAME": "試探",
+    "DESCRIPTION": " 造成 !D! 點傷害。 NL 選擇兩張牌 保留 ",
+    "UPGRADE_DESCRIPTION": " 造成 !D! 點傷害。 NL 選擇兩張牌 保留 "
+  },
+  "Magic_Draw": {
+    "NAME": "魔力汲取",
+    "DESCRIPTION": " 造成 !D! 點傷害。 NL  斬殺 時,恢複 !M! 點生命",
+    "UPGRADE_DESCRIPTION": " 造成 !D! 點傷害。 NL  斬殺 時,恢複 !M! 點生命"
+  },
+  "Experience_N": {
+    "NAME": "孤注壹擲",
+    "DESCRIPTION": "丟棄所有手牌, 從抽牌堆選擇 !M! 張牌加入手牌 NL  消耗 。 保留 。",
+    "UPGRADE_DESCRIPTION": "丟棄所有手牌, 從抽牌堆選擇 !M! 張牌加入手牌 NL  消耗 。 保留 。"
+  }
+}

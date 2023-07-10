@@ -8,10 +8,7 @@ import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.actions.watcher.CollectAction;
 import com.megacrit.cardcrawl.actions.watcher.VengeanceAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.blue.AllForOne;
-import com.megacrit.cardcrawl.cards.blue.Blizzard;
-import com.megacrit.cardcrawl.cards.blue.Seek;
-import com.megacrit.cardcrawl.cards.blue.Turbo;
+import com.megacrit.cardcrawl.cards.blue.*;
 import com.megacrit.cardcrawl.cards.colorless.Enlightenment;
 import com.megacrit.cardcrawl.cards.colorless.HandOfGreed;
 import com.megacrit.cardcrawl.cards.colorless.Purity;
@@ -33,6 +30,7 @@ import com.megacrit.cardcrawl.powers.watcher.MantraPower;
 
 import java.util.Random;
 import com.megacrit.cardcrawl.actions.defect.CompileDriverAction;
+import com.megacrit.cardcrawl.relics.CentennialPuzzle;
 import com.megacrit.cardcrawl.relics.SneckoEye;
 import com.megacrit.cardcrawl.vfx.stance.WrathParticleEffect;
 
@@ -103,5 +101,7 @@ public class Test1 {
         //HandOfGreed
         //StormOfSteel
         //Seek
+        //GeneticAlgorithm
+        //CentennialPuzzle
     }
 }

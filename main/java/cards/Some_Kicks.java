@@ -16,7 +16,7 @@ public class Some_Kicks extends CustomCard {
 
     public Some_Kicks() {
         super(ID, cardStrings.NAME, "img/cards_Seles/Some_Kicks.png", -1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
-        this.baseDamage = 7;
+        this.baseDamage = 8;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

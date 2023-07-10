@@ -1,8 +1,6 @@
 package demoMod;
 
 import basemod.BaseMod;
-import basemod.abstracts.CustomCard;
-import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.*;
 import cards.*;
 import characters.seles;
@@ -11,7 +9,6 @@ import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.purple.Brilliance;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.Settings;
@@ -32,7 +29,6 @@ import pathes.AbstractCardEnum;
 import pathes.ThmodClassEnum;
 import relics.cLanguageProgramBegin;
 
-import java.lang.reflect.Field;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -127,7 +123,14 @@ public class selesMod implements RelicGetSubscriber, PostPowerApplySubscriber, P
         }
         String keywordStrings = Gdx.files.internal(keyword).readString(String.valueOf(StandardCharsets.UTF_8));
         BaseMod.loadCustomStrings(PowerStrings.class, keywordStrings);*/
-        String keywordsPath = "localization/ThMod_Seles_keywords-zh.json";
+        String keywordsPath = "";
+        if (Settings.language == Settings.GameLanguage.ZHS) {
+            keywordsPath = "localization/zhs/ThMod_Seles_keywords-zh.json";
+        } else {
+            //其他语言配置的JSON
+            keywordsPath = "localization/zht/ThMod_Seles_keywords-zht.json";
+        }
+
         Gson gson = new Gson();
         String keywordStrings = Gdx.files.internal(keywordsPath).readString(String.valueOf(StandardCharsets.UTF_8));
         Keywords keywords = (Keywords)gson.fromJson(keywordStrings, Keywords.class);
@@ -150,13 +153,16 @@ public class selesMod implements RelicGetSubscriber, PostPowerApplySubscriber, P
 
         String relic = "", card = "", power = "", potion = "", event = "";
         if (Settings.language == Settings.GameLanguage.ZHS) {
-            card = "localization/ThMod_Seles_cards-zh.json";
-            relic = "localization/ThMod_Seles_relics-zh.json";
-            power = "localization/ThMod_Seles_powers-zh.json";
+            card = "localization/zhs/ThMod_Seles_cards-zh.json";
+            relic = "localization/zhs/ThMod_Seles_relics-zh.json";
+            power = "localization/zhs/ThMod_Seles_powers-zh.json";
             //potion = "localization/ThMod_YM_potions-zh.json";
             //event = "localization/ThMod_YM_events-zh.json";
         } else {
             //其他语言配置的JSON
+            card = "localization/zht/ThMod_Seles_cards-zht.json";
+            relic = "localization/zht/ThMod_Seles_relics-zht.json";
+            power = "localization/zht/ThMod_Seles_powers-zht.json";
         }
 
         String relicStrings = Gdx.files.internal(relic).readString(String.valueOf(StandardCharsets.UTF_8));

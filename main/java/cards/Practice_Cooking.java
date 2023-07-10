@@ -1,7 +1,9 @@
 package cards;
 
+import action.IncreaseMiscAction_N;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
+import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.HealAction;
@@ -13,7 +15,10 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import pathes.AbstractCardEnum;
+
+import java.util.Iterator;
 
 public class Practice_Cooking extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Practice_Cooking");
@@ -30,8 +35,9 @@ public class Practice_Cooking extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot((AbstractGameAction) new IncreaseMiscAction(this.uuid, this.misc, 1));
+        addToBot((AbstractGameAction) new IncreaseMiscAction_N(this.uuid, this.misc, 1));
         addToBot((AbstractGameAction) new HealAction((AbstractCreature) p, (AbstractCreature) p, this.magicNumber));
+        this.magicNumber = this.misc;
     }
 
     @Override

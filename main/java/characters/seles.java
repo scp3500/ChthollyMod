@@ -96,8 +96,12 @@ public class seles extends CustomPlayer {
             flavor = "世界第一幸福的女孩";
         } else if (Settings.language == Settings.GameLanguage.ZHT) {
             //当设定为中国台湾省，title和flavor为繁体描述
+            title = "珂朵莉";
+            flavor = "世界第一幸福的女孩";
         } else {
             //其他用英文替代
+            title = "Chtholly";
+            flavor = "The happiest girl in the world";
         }
 
         return new CharSelectInfo(title, flavor, STARTING_HP, MAX_HP,HAND_SIZE , STARTING_GOLD, ASCENSION_MAX_HP_LOSS, this, getStartingRelics(), getStartingDeck(), false);

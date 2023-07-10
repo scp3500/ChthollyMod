@@ -34,10 +34,13 @@ public class Magic_Freely extends CustomCard {
             this.num1 = 2;
             this.num2 = 1;
         }
-        if (p.getPower("Lose_Memory") == null || p.getPower("Lose_Memory").amount % 2 == 0) {
+        if (p.getPower("Lose_Memory") == null) {
             applyEffect(this.num1,m);
         }
-        if (p.getPower("Lose_Memory").amount % 2 == 1) {
+        if (p.getPower("Lose_Memory") != null && p.getPower("Lose_Memory").amount % 2 == 0) {
+            applyEffect(this.num1,m);
+        }
+        if (p.getPower("Lose_Memory") != null && p.getPower("Lose_Memory").amount % 2 == 1) {
             applyEffect(this.num2,m);
         }
     }
@@ -52,11 +55,13 @@ public class Magic_Freely extends CustomCard {
     }
 
     public void applyEffect(int num, AbstractMonster m) {
-        if (num == 1) {
-            addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, AbstractDungeon.player, (AbstractPower)new WeakPower((AbstractCreature)m, this.magicNumber, false), this.magicNumber));
-        }
-        if (num == 2) {
-            addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, AbstractDungeon.player, (AbstractPower)new VulnerablePower((AbstractCreature)m, this.magicNumber, false), this.magicNumber));
+        if (m != null) {
+            if (num == 1) {
+                addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, AbstractDungeon.player, (AbstractPower)new WeakPower((AbstractCreature)m, this.magicNumber, false), this.magicNumber));
+            }
+            if (num == 2) {
+                addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, AbstractDungeon.player, (AbstractPower)new VulnerablePower((AbstractCreature)m, this.magicNumber, false), this.magicNumber));
+            }
         }
     }
 

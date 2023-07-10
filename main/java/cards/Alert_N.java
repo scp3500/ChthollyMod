@@ -17,8 +17,8 @@ public class Alert_N extends CustomCard {
     public static final String ID = "Alert_N";
 
     public Alert_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Alert_N.png", 2, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.ENEMY);
-        this.baseDamage = 5;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Alert_N.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.ENEMY);
+        this.baseDamage = 2;
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
     }

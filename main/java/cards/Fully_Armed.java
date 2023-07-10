@@ -18,11 +18,10 @@ import pathes.AbstractCardEnum;
 public class Fully_Armed extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Fully_Armed");
     public static final String ID = "Fully_Armed";
-    public static final int LOSE = 1;
 
     public Fully_Armed() {
         super(ID, cardStrings.NAME, "img/cards_Seles/Fully_Armed.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF);
-        this.baseBlock = 5;
+        this.baseBlock = 6;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }
@@ -35,7 +34,7 @@ public class Fully_Armed extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
+            upgradeBlock(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }
