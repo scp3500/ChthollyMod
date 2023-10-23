@@ -13,8 +13,8 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
-import pathes.CardTagEnum;
+import patches_cht.AbstractCardEnum;
+import patches_cht.CardTagEnum;
 import power.Lose_Memory_Power;
 
 public class Magic_Flammability extends CustomCard {
@@ -22,8 +22,8 @@ public class Magic_Flammability extends CustomCard {
     public static final String ID = "Magic_Flammability";
 
     public Magic_Flammability() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Flammability.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
-        this.baseDamage = 7;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Flammability.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
+        this.baseDamage = 8;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(CardTagEnum.Magic);
@@ -38,7 +38,7 @@ public class Magic_Flammability extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeDamage(3);
+            upgradeDamage(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

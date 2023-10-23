@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "NAMES": [
+        "lose-memory"
+      ],
+      "DESCRIPTION": "Whenever you gain or lose #ylose-memory , if your #yLoseMemory is greater than #b5 , you gain #b2 #ystrength , when your #yLose-Memory tier does not fall below #b10 , you lose #b30% HP next turn."
+    },
+    {
+      "NAMES": [
+        "killing-intent"
+      ],
+      "DESCRIPTION": "For each #yAttack card drawn, deals #b3 damage to all enemies. Each turn, killing-intent is reduced by #b1."
+    },
+    {
+      "NAMES": [
+        "fearless"
+      ],
+      "DESCRIPTION": "For each #yAttack card played, draw #b1 card. At the start of your turn, you lose #b5 HP."
+    },
+    {
+      "NAMES": [
+        "flight~"
+      ],
+      "DESCRIPTION": "Take #b30% less damage"
+    },
+    {
+      "NAMES": [
+        "metallicize"
+      ],
+      "DESCRIPTION": "At the end of your turn, gain #yBlock."
+    },
+    {
+      "NAMES": [
+        "rebirth"
+      ],
+      "DESCRIPTION": "you take #b30 damage at start of your turn,"
+    },
+    {
+      "NAMES": [
+        "immortal"
+      ],
+      "DESCRIPTION": "Blessing from the star god Eroko, does not die from a single lethal attack damage. Each turn, killing-intent is reduced by #b1."
+    },
+    {
+      "NAMES": [
+        "eroded",
+        "eroded"
+      ],
+      "DESCRIPTION": "An eroded creature gains equal to its current #ylose-memory tier at the start of its next turn, Eroded tier decreases by #b1 at the start of each turn,"
+    },
+    {
+      "NAMES": [
+        "blur"
+      ],
+      "DESCRIPTION": "#yBlock is not removed at the start of your next turn."
+    },
+    {
+      "NAMES": [
+        "malleable"
+      ],
+      "DESCRIPTION": "For more details, please refer to Snake Flower."
+    },
+    {
+      "NAMES": [
+        "magic"
+      ],
+      "DESCRIPTION": "Cards containing \"Magic\"."
+    }
+  ]
+}

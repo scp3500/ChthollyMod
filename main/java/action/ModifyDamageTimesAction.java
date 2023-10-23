@@ -22,8 +22,8 @@ public class ModifyDamageTimesAction extends AbstractGameAction {
         while(var1.hasNext()) {
             AbstractCard c = (AbstractCard)var1.next();
             c.baseMagicNumber += this.amount;
-            if (c.baseMagicNumber < 0) {
-                c.baseMagicNumber = 0;
+            if (c.baseMagicNumber < 1) {
+                c.baseMagicNumber = 1;
             }
         }
 

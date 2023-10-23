@@ -8,14 +8,14 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Look_Back extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Look_Back");
     public static final String ID = "Look_Back";
 
     public Look_Back() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Look_Back.png", 0, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Look_Back.png", 0, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.RARE, CardTarget.SELF);
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;

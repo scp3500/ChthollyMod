@@ -11,9 +11,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
-
-import java.lang.reflect.Field;
+import patches_cht.AbstractCardEnum;
 
 /**
  * 创建人:谢文
@@ -32,7 +30,7 @@ public class Strike_Seles extends CustomCard{
     public static final String ID = "Strike_Seles";
     //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
     public Strike_Seles() {
-        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.BASIC, CardTarget.ENEMY);
         //添加基础攻击标签和将伤害设为6
         this.tags.add(BaseModCardTags.BASIC_STRIKE);
         this.baseDamage = ATTACK_DMG;

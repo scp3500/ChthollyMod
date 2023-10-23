@@ -12,8 +12,8 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.ArtifactPower;
-import pathes.AbstractCardEnum;
-import pathes.CardTagEnum;
+import patches_cht.AbstractCardEnum;
+import patches_cht.CardTagEnum;
 import power.Lose_Memory_Power;
 
 public class Magic_Block extends CustomCard {
@@ -22,7 +22,7 @@ public class Magic_Block extends CustomCard {
     public static final int LOSE = 3;
 
     public Magic_Block() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Block.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Block.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.RARE, CardTarget.SELF);
         this.baseBlock = 16;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;

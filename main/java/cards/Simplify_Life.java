@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Lose_Memory_Power;
 
 public class Simplify_Life extends CustomCard {
@@ -21,7 +21,7 @@ public class Simplify_Life extends CustomCard {
     public static final String ID = "Simplify_Life";
 
     public Simplify_Life() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Simplify_Life.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Simplify_Life.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF);
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
     }

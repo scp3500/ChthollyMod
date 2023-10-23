@@ -1,0 +1,62 @@
+
+1.png
+size: 276,301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hair
+  rotate: false
+  xy: 2, 143
+  size: 137, 156
+  orig: 139, 166
+  offset: 1, 9
+  index: -1
+hand-L
+  rotate: false
+  xy: 124, 52
+  size: 53, 89
+  orig: 53, 92
+  offset: 0, 1
+  index: -1
+hand-R
+  rotate: true
+  xy: 202, 3
+  size: 49, 72
+  orig: 51, 74
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 2, 3
+  size: 120, 138
+  orig: 122, 143
+  offset: 1, 4
+  index: -1
+leg-L
+  rotate: true
+  xy: 179, 54
+  size: 36, 84
+  orig: 38, 87
+  offset: 1, 1
+  index: -1
+leg-R
+  rotate: true
+  xy: 124, 2
+  size: 48, 76
+  orig: 51, 78
+  offset: 1, 1
+  index: -1
+skirt-D
+  rotate: false
+  xy: 141, 147
+  size: 132, 152
+  orig: 134, 154
+  offset: 1, 1
+  index: -1
+skirt-U
+  rotate: false
+  xy: 179, 92
+  size: 79, 53
+  orig: 81, 56
+  offset: 1, 2
+  index: -1

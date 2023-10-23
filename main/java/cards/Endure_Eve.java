@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Near_Death_Power;
 
 public class Endure_Eve extends CustomCard {
@@ -19,8 +19,8 @@ public class Endure_Eve extends CustomCard {
     public static final String ID = "Endure_Eve";
 
     public Endure_Eve() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Endure_Eve.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
-        this.baseDamage = 5;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Endure_Eve.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
+        this.baseDamage = 6;
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
         this.isMultiDamage = true;
@@ -34,7 +34,7 @@ public class Endure_Eve extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeDamage(1);
+            upgradeDamage(2);
             upgradeMagicNumber(1);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();

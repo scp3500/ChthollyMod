@@ -1,6 +1,5 @@
 package relics;
 import basemod.abstracts.CustomRelic;
-import characters.seles;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
@@ -13,7 +12,6 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import power.Lose_Memory_Power;
-import power.Magic_Out_Power;
 
 /**
  * 创建人:???
@@ -42,8 +40,8 @@ public class cLanguageProgramBegin extends CustomRelic {
         //在用户使用牌时触发
         if (card.type == AbstractCard.CardType.SKILL) {
             this.counter++;
-            if (this.counter % 2 == 0) {
-                //如果是2的倍数，counter=0和获得5点格挡
+            if (this.counter % 3 == 0) {
+                //如果是3的倍数，counter=0和获得5点格挡
                 this.counter = 0;
                 flash();
                 AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new RelicAboveCreatureAction((AbstractCreature)AbstractDungeon.player, (AbstractRelic)this));

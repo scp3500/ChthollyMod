@@ -4,7 +4,6 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.purple.Brilliance;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -12,7 +11,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 /**
  * 创建人:
@@ -29,7 +28,7 @@ public class Brilliance_N extends CustomCard{
     public static final String ID = "Brilliance_N";
     //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
     public Brilliance_N() {
-        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.BASIC, CardTarget.SELF);
         //添加基础攻击标签和将伤害设为6
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;

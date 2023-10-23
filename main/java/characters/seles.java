@@ -1,12 +1,13 @@
 package characters;
 
 import  basemod.abstracts.CustomPlayer;
-import cards.Strike_Seles;
+import cards.Combo_Attack;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.events.beyond.SpireHeart;
@@ -14,10 +15,11 @@ import com.megacrit.cardcrawl.events.city.Vampires;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
-import pathes.ThmodClassEnum;
-import pathes.AbstractCardEnum;
+import patches_cht.ThmodClassEnum;
+import patches_cht.AbstractCardEnum;
 import java.util.ArrayList;
 
 public class seles extends CustomPlayer {
@@ -52,11 +54,32 @@ public class seles extends CustomPlayer {
                          getLoadout(),
                          0.0F, 5.0F, 240.0F, 300.0F,
                          new EnergyManager(ENERGY_PER_TURN));
+        /*this.loadAnimation("img/char_Seles/1.atlas", "img/char_Seles/sele_1.json", 1.0F);
+        AnimationState.TrackEntry e = this.state.setAnimation(0, "idle", true);
+        e.setTime(e.getEndTime() * MathUtils.random());
+        e.setTimeScale(1.0F);*/
     }
 
     @Override
     public void applyPreCombatLogic() {
+        super.applyPreCombatLogic();
         this.img = ImageMaster.loadImage(seles.SELES_STAND);
+        /*//蛇眼补丁
+        if (this.hasRelic("Snecko Eye")) {
+            this.addPower(new ConfusionPower(this));
+        }
+        //英雄宝典补丁
+        AbstractRelic r = new Enchiridion();
+        if (this.hasRelic(r.relicId)) {
+            this.addPower(new ConfusionPower(this));
+        }
+        r.flash();
+        AbstractCard c = AbstractDungeon.returnTrulyRandomCardInCombat(AbstractCard.CardType.POWER).makeCopy();
+        if (c.cost != -1) {
+            c.setCostForTurn(0);
+        }
+        UnlockTracker.markCardAsSeen(c.cardID);
+        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(c));*/
     }
 
     @Override
@@ -101,7 +124,7 @@ public class seles extends CustomPlayer {
         } else {
             //其他用英文替代
             title = "Chtholly";
-            flavor = "The happiest girl in the world";
+            flavor = "The happiest girl in the world.";
         }
 
         return new CharSelectInfo(title, flavor, STARTING_HP, MAX_HP,HAND_SIZE , STARTING_GOLD, ASCENSION_MAX_HP_LOSS, this, getStartingRelics(), getStartingDeck(), false);
@@ -127,7 +150,7 @@ public class seles extends CustomPlayer {
 
     public AbstractCard.CardColor getCardColor() {
         //选择卡牌颜色
-        return AbstractCardEnum.Seles_COLOR;
+        return AbstractCardEnum.Chtho_COLOR;
     }
 
     @Override
@@ -137,7 +160,7 @@ public class seles extends CustomPlayer {
 
     @Override
     public AbstractCard getStartCardForEvent() {
-        return new Strike_Seles();
+        return new Combo_Attack();
     }
 
     @Override
@@ -157,14 +180,15 @@ public class seles extends CustomPlayer {
 
     @Override
     public void doCharSelectScreenSelectEffect() {
-
+        CardCrawlGame.sound.playA("SELECT_CTH", 0.0F);
+        CardCrawlGame.screenShake.shake(ScreenShake.ShakeIntensity.MED, ScreenShake.ShakeDur.SHORT, true);
     }
     public void updateOrb(int orbCount) {
         this.energyOrb.updateOrb(orbCount);
     }
     @Override
     public String getCustomModeCharacterButtonSoundKey() {
-        return null;
+        return "SELECT_CTH";
     }
 
     @Override
@@ -202,7 +226,7 @@ public class seles extends CustomPlayer {
 
     @Override
     public String getVampireText() {
-        return Vampires.DESCRIPTIONS[0];
+        return Vampires.DESCRIPTIONS[1];
     }
     public void applyEndOfTurnTriggers() {
         super.applyEndOfTurnTriggers();

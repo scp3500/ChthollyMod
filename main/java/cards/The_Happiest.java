@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.The_Happiest_Power;
 
 public class The_Happiest extends CustomCard {
@@ -15,7 +15,7 @@ public class The_Happiest extends CustomCard {
     public static final String ID = "The_Happiest";
 
     public The_Happiest() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/The_Happiest.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/The_Happiest.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
         this.selfRetain = true;

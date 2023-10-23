@@ -3,20 +3,14 @@ package cards;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.FeelNoPainPower;
-import pathes.AbstractCardEnum;
-import power.Lose_Memory_Power;
-import power.Near_Death_Power;
+import patches_cht.AbstractCardEnum;
 import power.UnforgettablePower;
 
 public class Unforgettable_N extends CustomCard {
@@ -24,7 +18,7 @@ public class Unforgettable_N extends CustomCard {
     public static final String ID = "Unforgettable_N";
 
     public Unforgettable_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Unforgettable_N.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Unforgettable_N.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.baseMagicNumber = 4;
         this.magicNumber = this.baseMagicNumber;
     }

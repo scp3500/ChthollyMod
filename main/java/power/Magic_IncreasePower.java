@@ -15,7 +15,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.CardTagEnum;
+import patches_cht.CardTagEnum;
 
 public class Magic_IncreasePower extends AbstractPower {
     public static final String POWER_ID = "Magic_Increase";

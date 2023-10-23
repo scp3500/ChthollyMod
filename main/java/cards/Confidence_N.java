@@ -8,14 +8,14 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Confidence_N extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Confidence_N");
     public static final String ID = "Confidence_N";
 
     public Confidence_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Confidence_N.png", 0, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Confidence_N.png", 0, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.baseBlock = 4;
     }
 

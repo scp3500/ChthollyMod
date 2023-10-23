@@ -36,7 +36,7 @@ public class Fearless_Of_Death_Power extends AbstractPower {
     }
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        if (card != null) {
+        if (card.type == AbstractCard.CardType.ATTACK) {
             flash();
             addToTop((AbstractGameAction) new DrawCardAction(this.owner, this.amount));
         }

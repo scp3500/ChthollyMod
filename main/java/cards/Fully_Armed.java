@@ -11,17 +11,16 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.MetallicizePower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Fully_Armed extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Fully_Armed");
     public static final String ID = "Fully_Armed";
 
     public Fully_Armed() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Fully_Armed.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF);
-        this.baseBlock = 6;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Fully_Armed.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF);
+        this.baseBlock = 7;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }
@@ -34,7 +33,7 @@ public class Fully_Armed extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeBlock(2);
+            upgradeBlock(3);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

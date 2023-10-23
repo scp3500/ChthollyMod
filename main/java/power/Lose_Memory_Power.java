@@ -1,6 +1,8 @@
 package power;
 
 import characters.seles;
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.GameActionManager;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
@@ -13,6 +15,7 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
 import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
@@ -23,6 +26,7 @@ public class Lose_Memory_Power extends AbstractPower {
     private static int GET_POWER = 1;
 
     public static int amount_N;
+    public boolean flag = false;
 
     public Lose_Memory_Power(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
@@ -52,20 +56,35 @@ public class Lose_Memory_Power extends AbstractPower {
             System.out.println("000");
         } else {
             this.fontScale = 8.0F;
-            //判断每次获取失忆时获取格挡
-            if (this.owner.getPower("Unforgettable") != null && stackAmount > 0) {
-                this.owner.getPower("Unforgettable").flash();
-                this.addToBot(new GainBlockAction(this.owner, 4 * this.owner.getPower("Unforgettable").amount, Settings.FAST_MODE));
-            }
             //表示不获得失忆
             if (this.owner.getPower("Guard") != null && stackAmount > 0) {
                 this.owner.getPower("Guard").flash();
                 this.owner.gainGold(stackAmount);
                 AbstractDungeon.effectList.add(new RainingGoldEffect(stackAmount * 2, true));
             }
+            //判断每次获取失忆时获取格挡
+            else if (this.owner.getPower("Unforgettable") != null && stackAmount > 0) {
+                this.owner.getPower("Unforgettable").flash();
+                this.addToBot(new GainBlockAction(this.owner, 4 * this.owner.getPower("Unforgettable").amount, Settings.FAST_MODE));
+                this.amount += stackAmount;
+                if (stackAmount > 0 && !this.flag && AbstractDungeon.player.hasRelic("Crystal_Brooch")) {
+                    this.flag = true;
+                    this.addToBot(new GainEnergyAction(1));
+                    AbstractRelic r = AbstractDungeon.player.getRelic("Crystal_Brooch");
+                    this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, r));
+                    r.flash();
+                }
+            }
             //表示获得失忆
             else {
                 this.amount += stackAmount;
+                if (stackAmount > 0 && !this.flag && AbstractDungeon.player.hasRelic("Crystal_Brooch")) {
+                    this.flag = true;
+                    this.addToBot(new GainEnergyAction(1));
+                    AbstractRelic r = AbstractDungeon.player.getRelic("Crystal_Brooch");
+                    this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, r));
+                    r.flash();
+                }
             }
         }
         amount_N += stackAmount;
@@ -98,6 +117,10 @@ public class Lose_Memory_Power extends AbstractPower {
             this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, "Lose_Memory"));
             AbstractDungeon.player.img = ImageMaster.loadImage(seles.SELES_STAND);
         }
+    }
+
+    public void atStartOfTurn() {
+        this.flag = false;
     }
 
     static {

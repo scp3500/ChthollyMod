@@ -1,6 +1,5 @@
 package cards;
 
-import basemod.abstracts.AbstractCardModifier;
 import basemod.abstracts.CustomCard;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -8,7 +7,6 @@ import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.utility.SFXAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -19,17 +17,15 @@ import com.megacrit.cardcrawl.powers.watcher.FreeAttackPower;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.BorderLongFlashEffect;
 import com.megacrit.cardcrawl.vfx.combat.VerticalAuraEffect;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Illusory_Ruckus_Power;
-
-import java.util.Iterator;
 
 public class Illusory_Ruckus extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Illusory_Ruckus");
     public static final String ID = "Illusory_Ruckus";
 
     public Illusory_Ruckus() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Illusory_Ruckus.png", 3, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Illusory_Ruckus.png", 3, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.RARE, CardTarget.SELF);
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
     }

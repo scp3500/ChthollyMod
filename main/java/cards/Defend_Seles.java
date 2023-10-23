@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 /**
  * 创建人:谢文
@@ -30,7 +30,7 @@ public class Defend_Seles extends CustomCard {
 
         //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
         public Defend_Seles() {
-            super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.BASIC, CardTarget.SELF);
+            super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.BASIC, CardTarget.SELF);
             //添加基础防御标签和将格挡设为5
             this.tags.add(BaseModCardTags.BASIC_DEFEND);
             this.baseBlock = BLOCK_AMT;

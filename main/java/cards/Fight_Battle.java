@@ -13,17 +13,16 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Lose_Memory_Power;
-import power.Near_Death_Power;
 
 public class Fight_Battle extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Fight_Battle");
     public static final String ID = "Fight_Battle";
 
     public Fight_Battle() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Fight_Battle.png", 2, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
-        this.baseDamage = 15;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Fight_Battle.png", 2, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
+        this.baseDamage = 17;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
         this.isEthereal = true;

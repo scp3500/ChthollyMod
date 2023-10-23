@@ -1,0 +1,31 @@
+{
+  "cLanguageProgramBegin": {
+    "NAME": "Thénionis",
+    "FLAVOR": "One of the ancient sacred swords of the pole position, it is made of special talismans joined in a specific order and requires maintenance using CF896C.",
+    "DESCRIPTIONS": [
+      "For every #b3 #yAttack cards played, gain #b4 block and #b2 #ylose-memory at the start of the battle."
+    ]
+  },
+  "Crystal_Brooch": {
+    "NAME": "Crystal Brooch",
+    "FLAVOR": "The brooch that my sister gave to Chtholly also served as a witness to Cordelia's first memories with William.",
+    "DESCRIPTIONS": [
+      "The first time you get #ylose-memory each turn,gain [E] ."
+    ]
+  },
+  "Grimoire": {
+    "NAME": "Grimoire",
+    "FLAVOR": "A replica of a magical book left behind by humans from a certain period.",
+    "DESCRIPTIONS": [
+      "Upon pickup, #yTransform #b2 Magic cards, then #yUpgrade them.",
+      "Choose 2 cards for "
+    ]
+  },
+  "C_Plus": {
+    "NAME": "Thénionis(adjusted)",
+    "FLAVOR": "Thénionis adjusted by William.",
+    "DESCRIPTIONS": [
+      "For every #b2 #ySkill cards played, gain #b4 block and #b4 #ylose-memory at the start of the battle."
+    ]
+  }
+}

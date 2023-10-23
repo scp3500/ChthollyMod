@@ -16,14 +16,14 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.combat.IronWaveEffect;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Flying_Slash extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Flying_Slash");
     public static final String ID = "Flying_Slash";
 
     public Flying_Slash() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Flying_Slash.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Flying_Slash.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
         this.baseDamage = 4;
         this.baseBlock = 4;
         this.baseMagicNumber = 1;

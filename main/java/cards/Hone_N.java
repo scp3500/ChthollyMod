@@ -13,15 +13,15 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.DrawCardNextTurnPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Hone_N extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Hone_N");
     public static final String ID = "Hone_N";
 
     public Hone_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Hone_N.png", 0, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
-        this.baseDamage = 5;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Hone_N.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
+        this.baseDamage = 8;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }
@@ -41,7 +41,7 @@ public class Hone_N extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
+            upgradeDamage(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

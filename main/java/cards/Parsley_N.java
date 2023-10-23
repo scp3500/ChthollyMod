@@ -9,15 +9,15 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.RegenPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Parsley_N extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Parsley_N");
     public static final String ID = "Parsley_N";
 
     public Parsley_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Parsley_N.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 3;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Parsley_N.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        this.baseMagicNumber = 4;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
         this.tags.add(AbstractCard.CardTags.HEALING);
@@ -35,7 +35,7 @@ public class Parsley_N extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
+            upgradeMagicNumber(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

@@ -3,29 +3,24 @@ package cards;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.InfiniteBladesPower;
-import pathes.AbstractCardEnum;
-import pathes.CardTagEnum;
+import patches_cht.AbstractCardEnum;
+import patches_cht.CardTagEnum;
 import power.Lose_Memory_Power;
 import power.Magic_FocusPower;
-import power.Near_Death_Power;
 
 public class Magic_Focus extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Magic_Focus");
     public static final String ID = "Magic_Focus";
 
     public Magic_Focus() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Focus.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Focus.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.cardsToPreview = new SavePower();
         this.tags.add(CardTagEnum.Magic);
         this.baseMagicNumber = 1;

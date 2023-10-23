@@ -46,9 +46,9 @@
     "UPGRADE_DESCRIPTION": "造成 !D! 點傷害。 NL 獲得 !B! 點格擋。 NL 抽 !M! 張牌。"
   },
   "Insight_N": {
-    "NAME": "洞察弱點",
-    "DESCRIPTION": "獲得 !B! 點格擋。 NL !M! %概率造成999傷害。",
-    "UPGRADE_DESCRIPTION": "獲得 !B! 點格擋。 NL !M! %概率造成999傷害。"
+    "NAME": "堅守",
+    "DESCRIPTION": "你每在戰鬥中失去生命1次，這張牌的耗能就減少1 NL 獲得 !B! 點 格擋 。",
+    "UPGRADE_DESCRIPTION": "你每在戰鬥中失去生命1次，這張牌的耗能就減少1 NL 獲得 !B! 點 格擋 。"
   },
   "Adjust_Sword": {
     "NAME": "調整聖劍",
@@ -62,8 +62,8 @@
   },
   "On_Rush": {
     "NAME": "沖動",
-    "DESCRIPTION": "抽 3 張牌。 NL 獲得 !M! 層 易傷 。",
-    "UPGRADE_DESCRIPTION": "抽 3 張牌。 NL 獲得 !M! 層 易傷 。"
+    "DESCRIPTION": "抽 2 張牌。 NL 獲得 !M! 層 易傷 。",
+    "UPGRADE_DESCRIPTION": "抽 2 張牌。 NL 獲得 !M! 層 易傷 。"
   },
   "More_Amazonian": {
     "NAME": "愈戰愈勇",
@@ -72,8 +72,8 @@
   },
   "Fearless_Of_Death": {
     "NAME": "無懼生死",
-    "DESCRIPTION": "每打出壹張任意牌, 抽 !M! 張牌。 NL 在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)。",
-    "UPGRADE_DESCRIPTION": "每打出壹張任意牌, 抽 !M! 張牌。 NL 在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)。"
+    "DESCRIPTION": "每打出壹張攻擊牌, 抽 !M! 張牌。 NL 在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)。",
+    "UPGRADE_DESCRIPTION": "每打出壹張攻擊牌, 抽 !M! 張牌。 NL 在妳的回合開始時，妳失去 5 點生命(注:失去生命不會疊加)。"
   },
   "Chop_Of_Death": {
     "NAME": "死斬",
@@ -112,8 +112,8 @@
   },
   "Thyme_N": {
     "NAME": "百裏香",
-    "DESCRIPTION": " 獲得 無懼生死 的能力。 NL 獲得 8 層 失憶 。 NL 消耗 ",
-    "UPGRADE_DESCRIPTION": " 獲得 無懼生死 的能力。 NL 獲得 8 層 失憶 。 NL 消耗 "
+    "DESCRIPTION": " 獲得 無懼生死 的能力。 NL 獲得 !M! 層 失憶 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": " 獲得 無懼生死 的能力。 NL 獲得 !M! 層 失憶 。 NL 消耗 "
   },
   "Seek_N": {
     "NAME": "尋覓",
@@ -131,7 +131,7 @@
     ]
   },
   "Illusory_Ruckus": {
-    "NAME": "妄想紛擾",
+    "NAME": "涤荡",
     "DESCRIPTION": "所有攻擊牌耗能變爲0。 NL 所有攻擊牌在被打出時被 消耗 。",
     "UPGRADE_DESCRIPTION": "所有攻擊牌耗能變爲0。 NL 所有攻擊牌在被打出時被 消耗 。"
   },
@@ -142,8 +142,8 @@
   },
   "Ow_Forces": {
     "NAME": "皆有可能",
-    "DESCRIPTION": " 從原版的幾張隨機牌中隨機獲取壹張 。 NL 這張牌在本回合耗能變爲0。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " 從原版的幾張隨機牌中隨機獲取壹張 。 NL 這張牌在本回合耗能變爲0。 NL 消耗 。"
+    "DESCRIPTION": " 從原版四角色牌的三張牌中選擇一張 。 NL 這張牌在本回合耗能變為0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 從原版四種顏色牌的三張牌中選擇一張 。 NL 這張牌在本回合耗能變為0。 NL 消耗 。"
   },
   "Endure_Eve": {
     "NAME": "速戰",
@@ -162,8 +162,8 @@
   },
   "Tenacity_N": {
     "NAME": "堅韌",
-    "DESCRIPTION": "只有在手牌中至少有壹張牌是狀態牌或詛咒牌時才能被打出。 NL 對所有敵人造成 !D! 點傷害。",
-    "UPGRADE_DESCRIPTION": "只有在手牌中至少有壹張牌是狀態牌或詛咒牌時才能被打出。 NL 對所有敵人造成 !D! 點傷害。",
+    "DESCRIPTION": "只有在手牌中至少有一張牌是狀態牌或詛咒牌時才能被打出。 NL 對所有敵人造成 !D! 點傷害。抽一張牌。",
+    "UPGRADE_DESCRIPTION": "只有在手牌中至少有一張牌是狀態牌或詛咒牌時才能被打出。 NL 對所有敵人造成 !D! 點傷害。抽一張牌。",
     "EXTENDED_DESCRIPTION": [
       "我的手牌中沒有狀態牌或詛咒牌"
     ]
@@ -205,8 +205,8 @@
   },
   "Memory_Erosion":{
     "NAME": "記憶侵蝕",
-    "DESCRIPTION": "獲得 1 層 失憶 。 NL 給予 !M! 層 侵蝕 ",
-    "UPGRADE_DESCRIPTION": "獲得 1 層 失憶 。 NL 給予 !M! 層 侵蝕 "
+    "DESCRIPTION": "獲得 !M! 層 失憶 。 NL 清除自身和敵人的一項隨機效果 。 NL  消耗 。 NL  虛無 。",
+    "UPGRADE_DESCRIPTION": "獲得 !M! 層 失憶 。 NL 清除自身和敵人的一項隨機效果 。 NL  消耗 。 NL  虛無 。"
   },
   "Some_Kicks":{
     "NAME": "妖精連斬",
@@ -220,8 +220,8 @@
   },
   "Remember_N": {
     "NAME": "銘記",
-    "DESCRIPTION": "獲得當前 失憶 層數 !M! 倍的 格擋 。 NL 固有 。",
-    "UPGRADE_DESCRIPTION": "獲得當前 失憶 層數 !M! 倍的 格擋 。 NL 固有 。"
+    "DESCRIPTION": "獲得當前 失憶 層數 !M! 倍的 格擋 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "獲得當前 失憶 層數 !M! 倍的 格擋 。 NL 消耗 。"
   },
   "Selfless_N": {
     "NAME": "奮不顧身",
@@ -245,8 +245,8 @@
   },
   "Magic_Overflow": {
     "NAME": "魔力湧現",
-    "DESCRIPTION": "獲得 [E] 。抽 3 張牌。 NL 獲得 3 層 失憶 。 NL 消耗 ",
-    "UPGRADE_DESCRIPTION": "獲得 [E] [E] 。抽 3 張牌。 NL 獲得 3 層 失憶 。 NL 消耗 "
+    "DESCRIPTION": "獲得 [E] 。抽 !M! 張牌。 NL 獲得 !M! 層 失憶 。 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": "獲得 [E] 。抽 !M! 張牌。 NL 獲得 !M! 層 失憶 。 NL 消耗 "
   },
   "Concern_N": {
     "NAME": "關切",
@@ -255,8 +255,8 @@
   },
   "Narrow_Escape": {
     "NAME": "躲閃",
-    "DESCRIPTION": "獲得 !B! 點 格擋 。 NL 獲得 !M! 層 虛弱 。",
-    "UPGRADE_DESCRIPTION": "獲得 !B! 點 格擋 。 NL 獲得 !M! 層 虛弱 。"
+    "DESCRIPTION": "獲得 !M! 層 虛弱 。 NL 獲得 2 層 柔韌 。 NL 獲得 1 層 殘影 。",
+    "UPGRADE_DESCRIPTION": "獲得 !M! 層 虛弱 。 NL 獲得 2 層 柔韌 。 NL 獲得 1 層 殘影 。"
   },
   "Unforgettable_N": {
     "NAME": "刻骨銘心",
@@ -354,8 +354,8 @@
   },
   "Alert_N": {
     "NAME": "義無反顧",
-    "DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 額外造成當前 失憶 總層數的傷害。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 !M! 次。 NL 額外造成當前 失憶 總層數的傷害。"
+    "DESCRIPTION": "造成 !D! 點傷害 3 次。 NL 額外造成當前 失憶 總層數的傷害。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 點傷害 3 次。 NL 額外造成當前 失憶 總層數的傷害。"
   },
   "Stop_N": {
     "NAME": "戒備",
@@ -386,5 +386,35 @@
     "NAME": "孤注壹擲",
     "DESCRIPTION": "丟棄所有手牌, 從抽牌堆選擇 !M! 張牌加入手牌 NL  消耗 。 保留 。",
     "UPGRADE_DESCRIPTION": "丟棄所有手牌, 從抽牌堆選擇 !M! 張牌加入手牌 NL  消耗 。 保留 。"
+  },
+  "Get_Memory": {
+    "NAME": "記憶",
+    "DESCRIPTION": "失去 失憶 ",
+    "UPGRADE_DESCRIPTION": "失去 失憶 "
+  },
+  "Lose_Memory": {
+    "NAME": "失憶",
+    "DESCRIPTION": "獲得 失憶 ",
+    "UPGRADE_DESCRIPTION": "獲得 失憶 "
+  },
+  "Red_Card": {
+    "NAME": "鐵甲戰士牌",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Green_Card": {
+    "NAME": "靜默獵手牌",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Blue_Card": {
+    "NAME": "故障機器人牌",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Purple_Card": {
+    "NAME": "觀者牌",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
   }
 }

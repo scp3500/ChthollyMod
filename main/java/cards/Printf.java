@@ -9,7 +9,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 public class Printf extends CustomCard {
     //从.json文件中提取键名为Strike_Seles的信息
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Printf");
@@ -17,12 +17,12 @@ public class Printf extends CustomCard {
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String IMG_PATH = "img/cards_Seles/Printf.png";
     private static final int COST = 2;
-    private static final int ATTACK_DMG = 12;
-    private static final int UPGRADE_PLUS_DMG = 4;
+    private static final int ATTACK_DMG = 14;
+    private static final int UPGRADE_PLUS_DMG = 3;
     public static final String ID = "Printf";
     //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
     public Printf() {
-        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.ALL_ENEMY);
+        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.ALL_ENEMY);
         //添加基础攻击标签和将伤害设为8
         this.baseDamage = ATTACK_DMG;
         this.cardsToPreview = (AbstractCard)new SavePower();

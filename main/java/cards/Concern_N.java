@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Lose_Memory_Power;
 
 public class Concern_N extends CustomCard {
@@ -20,7 +20,7 @@ public class Concern_N extends CustomCard {
     public static final String ID = "Concern_N";
 
     public Concern_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Concern_N.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Concern_N.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF);
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }

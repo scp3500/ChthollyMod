@@ -13,16 +13,16 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
-import pathes.CardTagEnum;
+import patches_cht.AbstractCardEnum;
+import patches_cht.CardTagEnum;
 import power.Lose_Memory_Power;
 
 public class Magic_Tap extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Magic_Tap");
     public static final String ID = "Magic_Tap";
     public Magic_Tap() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Tap.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
-        this.baseDamage = 11;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Tap.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
+        this.baseDamage = 12;
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(AbstractCard.CardTags.STRIKE);
@@ -37,7 +37,7 @@ public class Magic_Tap extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeDamage(3);
+            upgradeDamage(4);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

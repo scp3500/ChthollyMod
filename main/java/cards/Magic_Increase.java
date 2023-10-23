@@ -10,8 +10,8 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
-import pathes.CardTagEnum;
+import patches_cht.AbstractCardEnum;
+import patches_cht.CardTagEnum;
 import power.Magic_IncreasePower;
 
 public class Magic_Increase extends CustomCard {
@@ -19,7 +19,7 @@ public class Magic_Increase extends CustomCard {
     public static final String ID = "Magic_Increase";
 
     public Magic_Increase() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Increase.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Increase.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.RARE, CardTarget.SELF);
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(CardTagEnum.Magic);

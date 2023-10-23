@@ -10,14 +10,14 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Touch_And_Go extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Touch_And_Go");
     public static final String ID = "Touch_And_Go";
 
     public Touch_And_Go() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Touch_And_Go.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Touch_And_Go.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
         this.baseDamage = 7;
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
@@ -31,6 +31,16 @@ public class Touch_And_Go extends CustomCard {
             }
         } else {
             AbstractDungeon.actionManager.addToBottom((AbstractGameAction) new DamageAction((AbstractCreature) m, new DamageInfo((AbstractCreature) p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+        }
+    }
+
+    public void triggerOnGlowCheck() {
+        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        for (AbstractMonster m : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
+            if (!m.isDeadOrEscaped() && m.getIntentBaseDmg() >= 0) {
+                this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+                break;
+            }
         }
     }
 

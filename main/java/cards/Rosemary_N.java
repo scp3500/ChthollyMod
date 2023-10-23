@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Lose_Memory_Power;
 
 public class Rosemary_N extends CustomCard {
@@ -20,8 +20,8 @@ public class Rosemary_N extends CustomCard {
     public static final String ID = "Rosemary_N";
 
     public Rosemary_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Rosemary_N.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 2;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Rosemary_N.png", 1, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        this.baseMagicNumber = 4;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
     }
@@ -42,7 +42,7 @@ public class Rosemary_N extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
+            upgradeMagicNumber(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

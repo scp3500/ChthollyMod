@@ -1,9 +1,7 @@
 package cards;
 
 import basemod.abstracts.CustomCard;
-import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -15,18 +13,16 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
-import com.megacrit.cardcrawl.vfx.combat.VerticalAuraEffect;
-import pathes.AbstractCardEnum;
-import pathes.CardTagEnum;
-import power.Near_Death_Power;
+import patches_cht.AbstractCardEnum;
+import patches_cht.CardTagEnum;
 
 public class Magic_Hash extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Magic_Hash");
     public static final String ID = "Magic_Hash";
 
     public Magic_Hash() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Hash.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
-        this.baseDamage = 4;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Magic_Hash.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
+        this.baseDamage = 3;
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(CardTagEnum.Magic);
@@ -43,7 +39,6 @@ public class Magic_Hash extends CustomCard {
         if (!this.upgraded) {
             upgradeName();
             upgradeDamage(1);
-            upgradeMagicNumber(1);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

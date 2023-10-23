@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Spin_DestinyPower;
 
 public class Spin_Destiny extends CustomCard {
@@ -19,8 +19,8 @@ public class Spin_Destiny extends CustomCard {
     public static final String ID = "Spin_Destiny";
 
     public Spin_Destiny() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Spin_Destiny.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 1;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Spin_Destiny.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
     }
 

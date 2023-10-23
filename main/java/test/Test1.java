@@ -1,5 +1,6 @@
 package test;
 
+import basemod.helpers.RelicType;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.actions.defect.*;
@@ -12,26 +13,24 @@ import com.megacrit.cardcrawl.cards.blue.*;
 import com.megacrit.cardcrawl.cards.colorless.Enlightenment;
 import com.megacrit.cardcrawl.cards.colorless.HandOfGreed;
 import com.megacrit.cardcrawl.cards.colorless.Purity;
+import com.megacrit.cardcrawl.cards.colorless.RitualDagger;
 import com.megacrit.cardcrawl.cards.deprecated.DEPRECATEDWrath;
 import com.megacrit.cardcrawl.cards.green.*;
-import com.megacrit.cardcrawl.cards.purple.Blasphemy;
-import com.megacrit.cardcrawl.cards.purple.Brilliance;
-import com.megacrit.cardcrawl.cards.purple.DeusExMachina;
-import com.megacrit.cardcrawl.cards.purple.Wish;
+import com.megacrit.cardcrawl.cards.purple.*;
 import com.megacrit.cardcrawl.cards.red.*;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.potions.RegenPotion;
+import com.megacrit.cardcrawl.helpers.EventHelper;
+import com.megacrit.cardcrawl.potions.*;
 import com.megacrit.cardcrawl.powers.*;
 import com.megacrit.cardcrawl.powers.watcher.FreeAttackPower;
 import com.megacrit.cardcrawl.powers.watcher.MantraPower;
 
 import java.util.Random;
 import com.megacrit.cardcrawl.actions.defect.CompileDriverAction;
-import com.megacrit.cardcrawl.relics.CentennialPuzzle;
-import com.megacrit.cardcrawl.relics.SneckoEye;
+import com.megacrit.cardcrawl.relics.*;
 import com.megacrit.cardcrawl.vfx.stance.WrathParticleEffect;
 
 public class Test1 {
@@ -103,5 +102,24 @@ public class Test1 {
         //Seek
         //GeneticAlgorithm
         //CentennialPuzzle
+        //RitualDagger
+        //LessonLearned
+        //PowerPotion
+        //FruitJuice
+        //StancePotion
+        //Ambrosia
+        //DistilledChaosPotion
+        //DoubleEnergyAction
+        //HornCleat
+        //RelicType
+        //EventHelper
+        //HoveringKite
+        //NextTurnBlockPower
+        //PhantasmalKiller
+        //StoneCalendar
+        //BowlingBash
+        //Astrolabe
+        //BloodForBlood
+        //DiscoveryAction
     }
 }

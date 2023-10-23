@@ -8,15 +8,15 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Some_Kicks extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Some_Kicks");
     public static final String ID = "Some_Kicks";
 
     public Some_Kicks() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Some_Kicks.png", -1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
-        this.baseDamage = 8;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Some_Kicks.png", -1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
+        this.baseDamage = 9;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

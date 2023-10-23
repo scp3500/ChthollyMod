@@ -1,0 +1,117 @@
+{
+"skeleton": {
+	"hash": "yNzNIWDnkKg+TIWArpH6/3SxP2c",
+	"spine": "3.8.75",
+	"x": -75.36,
+	"y": -2.73,
+	"width": 144.98,
+	"height": 297.96,
+	"images": "../images/",
+	"audio": "D:/desk"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 27.66, "rotation": 90.05, "x": 8.18, "y": 116.21 },
+	{ "name": "bone2", "parent": "bone", "length": 21.52, "rotation": 0.46, "x": 27.66 },
+	{ "name": "bone3", "parent": "bone2", "length": 19.76, "rotation": -0.24, "x": 21.37, "y": -0.35 },
+	{ "name": "bone4", "parent": "bone3", "length": 18.98, "rotation": -7.24, "x": 19.76 },
+	{ "name": "bone5", "parent": "bone4", "length": 53.61, "rotation": 2.35, "x": 18.73, "y": -0.03 },
+	{ "name": "bone6", "parent": "bone3", "length": 55.51, "rotation": 146.96, "x": 11.2, "y": 26.9 },
+	{ "name": "bone7", "parent": "bone6", "length": 20.25, "rotation": 10.21, "x": 56.62, "y": -0.87 },
+	{ "name": "bone8", "parent": "bone3", "length": 52.09, "rotation": -146.9, "x": 3.83, "y": -15.09 },
+	{ "name": "bone9", "parent": "bone8", "length": 15.2, "rotation": 1.87, "x": 51.39, "y": 0.07 },
+	{ "name": "bone10", "parent": "bone5", "length": 66.17, "rotation": 1.01, "x": -56.22, "y": 54.25 },
+	{ "name": "bone11", "parent": "bone", "length": 40.06, "rotation": 157.54, "x": -58.94, "y": 16.55 },
+	{ "name": "bone12", "parent": "bone", "length": 40.66, "rotation": -172.68, "x": -58.98, "y": -9.33 }
+],
+"slots": [
+	{ "name": "leg-L", "bone": "bone11", "attachment": "leg-L" },
+	{ "name": "leg-R", "bone": "bone12", "attachment": "leg-R" },
+	{ "name": "hand-R", "bone": "bone8", "attachment": "hand-R" },
+	{ "name": "skirt-D", "bone": "bone", "attachment": "skirt-D" },
+	{ "name": "hair", "bone": "bone10", "attachment": "hair" },
+	{ "name": "hand-L", "bone": "bone6", "attachment": "hand-L" },
+	{ "name": "skirt-U", "bone": "bone3", "attachment": "skirt-U" },
+	{ "name": "head", "bone": "bone5", "attachment": "head" }
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"bone6": {
+				"rotate": [
+					{ "angle": 5.49, "time": 0.0 },
+					{ "time": 0.6667, "angle": 6.8 },
+					{ "time": 1.3333, "angle": 5.49 }
+				]
+			},
+			"bone8": {
+				"rotate": [
+					{ "angle": 4.99, "time": 0.0 },
+					{ "time": 0.6667, "angle": 3.3 },
+					{ "time": 1.3333, "angle": 4.91 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.3333 },
+					{ "time": 0.6667, "x": -0.71 },
+					{ "time": 1.3333 }
+				],
+				"shear": [
+					{ "time": 0.6667, "y": -0.19 },
+					{ "time": 1.1667 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.6667 }
+				],
+				"shear": [
+					{ "time": 0.3333, "x": 0.06 },
+					{ "time": 0.6667, "x": 0.11 },
+					{ "time": 1, "x": 0.06 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"skirt-D": {
+			"skirt-D": { "x": 11.77, "y": 6.83, "rotation": -89.09, "width": 134, "height": 154 }
+		},
+		"leg-L": {
+			"leg-L": { "x": 1.89, "y": 33.32, "rotation": 113.37, "width": 38, "height": 87 }
+		},
+		"leg-R": {
+			"leg-R": { "x": 16.24, "y": -34.57, "rotation": 83.59, "width": 51, "height": 78 }
+		},
+		"skirt-U": {
+			"skirt-U": { "x": 13.68, "y": 6.75, "rotation": -89.95, "width": 81, "height": 56 }
+		},
+		"head": {
+			"head": { "x": 15.32, "y": 14.84, "rotation": -81.8, "width": 122, "height": 143 }
+		},
+		"hair": {
+			"hair": { "x": 59.26, "y": -41.3, "rotation": -84.5, "width": 139, "height": 166 }
+		},
+		"hand-L": {
+			"hand-L": {
+				"type": "mesh",
+				"uvs": [ 0.59855, 0.11657, 0.50068, 0.34746, 0.19775, 0.49244, 0.25368, 0.63205, 0.02998, 0.76897, 0.00202, 0.88442, 0.13717, 0.96228, 0.31892, 0.94349, 0.34689, 0.89784, 0.37019, 0.97839, 0.54262, 0.94617, 0.59855, 0.78508, 0.757, 0.68038, 0.95273, 0.37163, 1, 0.08973, 0.87817, 0.02261, 0.69175, 0.03066 ],
+				"triangles": [ 10, 9, 8, 7, 6, 8, 10, 8, 11, 8, 6, 5, 5, 4, 8, 4, 3, 8, 8, 3, 11, 11, 3, 12, 3, 1, 12, 12, 1, 13, 3, 2, 1, 1, 0, 13, 13, 0, 14, 14, 0, 15, 0, 16, 15 ],
+				"vertices": [ 4.12, -9.79, 25.52, -5.3, 44.48, -14.04, 54.79, -5.82, 71.27, -11.09, 81.49, -7.85, 84.86, 1.71, 79.15, 9.65, 74.72, 9.18, 80.87, 13.49, 74.26, 20.46, 59.61, 16.74, 47.29, 20.16, 17.19, 17.27, -7.29, 8.35, -10.07, -0.14, -5.14, -8.74 ],
+				"hull": 17,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 0, 32 ],
+				"width": 53,
+				"height": 92
+			}
+		},
+		"hand-R": {
+			"hand-R": { "x": 31.75, "y": -1.91, "rotation": 56.35, "width": 51, "height": 74 }
+		}
+	}
+}
+}

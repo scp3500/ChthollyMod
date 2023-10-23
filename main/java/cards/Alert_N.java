@@ -10,16 +10,16 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Alert_N extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Alert_N");
     public static final String ID = "Alert_N";
 
     public Alert_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Alert_N.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.RARE, CardTarget.ENEMY);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Alert_N.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.RARE, CardTarget.ENEMY);
         this.baseDamage = 2;
-        this.baseMagicNumber = 3;
+        this.baseMagicNumber = 0;
         this.magicNumber = this.baseMagicNumber;
     }
 
@@ -48,7 +48,7 @@ public class Alert_N extends CustomCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.damage += this.magicNumber;
         this.calculateCardDamage(m);
-        for (int i = 0; i < this.magicNumber; i++) {
+        for (int i = 0; i < 3; i++) {
             this.addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.FIRE, true));
         }
     }
@@ -56,7 +56,7 @@ public class Alert_N extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
+            upgradeDamage(2);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

@@ -11,15 +11,15 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 public class Probe_N extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Probe_N");
     public static final String ID = "Probe_N";
 
     public Probe_N() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Probe_N.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.ENEMY);
-        this.baseDamage = 11;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Probe_N.png", 0, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.ENEMY);
+        this.baseDamage = 5;
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
     }
@@ -34,7 +34,7 @@ public class Probe_N extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeDamage(4);
+            upgradeDamage(1);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

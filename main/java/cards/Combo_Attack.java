@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 
 /**
  * 创建人:谢文
@@ -28,7 +28,7 @@ public class Combo_Attack extends CustomCard{
     public static final String ID = "Combo_Attack";
     //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
     public Combo_Attack() {
-        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.BASIC, CardTarget.ENEMY);
         //添加基础攻击标签和将伤害设为5
         this.baseDamage = ATTACK_DMG;
         this.baseMagicNumber = 3;

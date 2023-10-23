@@ -44,7 +44,7 @@ public class FlightPower_New extends AbstractPower {
     }
 
     public float atDamageFinalReceive(float damage, DamageInfo.DamageType type) {
-        return damage / 2.0F;
+        return damage * 0.7F;
     }
 
     public int onAttacked(DamageInfo info, int damageAmount) {

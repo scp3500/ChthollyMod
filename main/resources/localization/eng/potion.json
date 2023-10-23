@@ -1,0 +1,23 @@
+{
+  "PracticePotion": {
+    "NAME": "Practice Potion",
+    "DESCRIPTIONS": [
+      " Upgrade  #b1 random card in your deck.",
+      " Upgrade  #b2 random card in your deck."
+    ]
+  },
+  "TrendsPotion": {
+    "NAME": "Trends Potion",
+    "DESCRIPTIONS": [
+      "gain or lose  #b4  #ylose-memory 。",
+      "gain or lose  #b8  #ylose-memory 。"
+    ]
+  },
+  "MagicPotion": {
+    "NAME": "Magic Potion",
+    "DESCRIPTIONS": [
+      "Choose #b1 of #b3 random #yMagic cards to add to your hand, it costs #b0 this turn.",
+      "Choose #b1 of #b3 random #yMagic cards and add #b2 copies to your hand, they cost #b0 this turn."
+    ]
+  }
+}

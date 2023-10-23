@@ -1,5 +1,5 @@
 {
-  "modid": "Chtholly_demo1",
+  "modid": "Chtholly",
   "name": "Chtholly(珂朵莉)",
   "author_list": [
     "某柯学家"
@@ -8,6 +8,6 @@
   "dependencies": [
     "basemod"
   ],
-  "version": "0.0.1",
-  "sts_version": "06-15-2023"
+  "version": "0.0.2",
+  "sts_version": "07-24-2023"
 }

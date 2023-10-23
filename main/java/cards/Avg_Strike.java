@@ -13,18 +13,17 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Lose_Memory_Power;
-import power.Near_Death_Power;
 
 public class Avg_Strike extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Avg_Strike");
     public static final String ID = "Avg_Strike";
 
     public Avg_Strike() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Avg_Strike.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF_AND_ENEMY);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Avg_Strike.png", 1, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF_AND_ENEMY);
         this.baseDamage = 10;
-        this.baseMagicNumber = 1;
+        this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(AbstractCard.CardTags.STRIKE);
     }

@@ -1,0 +1,420 @@
+{
+  "Strike_Seles": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "Defend_Seles": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "SavePower": {
+    "NAME": "Focus",
+    "DESCRIPTION": "Retain. NL Your next attack card deals !M! extra damage."
+  },
+  "Printf": {
+    "NAME": "Examplary",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL add a *Focus into your hand."
+  },
+  "Combo_Attack": {
+    "NAME": "Combo Attack",
+    "DESCRIPTION": "Deal !D! damage !M! times.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times."
+  },
+  "Brilliance_N": {
+    "NAME": "Brilliance",
+    "DESCRIPTION": "Gain !M! Strength. NL Draw !M! card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Strength. NL Draw !M! card. NL Exhaust."
+  },
+  "Practice_Cooking": {
+    "NAME": "Practice Cooking",
+    "DESCRIPTION": "Heal !M! HP. NL Permanently increase healing by 1. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Heal !M! HP. NL Permanently increase healing by 1. NL Exhaust."
+  },
+  "Slash": {
+    "NAME": "Slash",
+    "DESCRIPTION": "Deal !D! damage. NL  Apply !M! Weak. NL Apply !M! Vulnerable.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL  Apply !M! Weak. NL Apply !M! Vulnerable."
+  },
+  "Touch_And_Go": {
+    "NAME": "Imminent Crisis",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, gain !M! attack times",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, gain !M! attack times"
+  },
+  "Flying_Slash": {
+    "NAME": "Flying Slash",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Draw !M! cards."
+  },
+  "Insight_N": {
+    "NAME": "Insight",
+    "DESCRIPTION": "Costs 1 less [E] NL for each time you lose HP this combat. NL Gain !B! Block. ",
+    "UPGRADE_DESCRIPTION": "Costs 1 less [E] NL for each time you lose HP this combat. NL Gain !B! Block. "
+  },
+  "Adjust_Sword": {
+    "NAME": "Adjust Sword",
+    "DESCRIPTION": "Gain !M! Dexterity. NL add a *Miracle into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Dexterity. NL add a *Miracle into your hand."
+  },
+  "Get_Energy": {
+    "NAME": "Magic Cluster",
+    "DESCRIPTION": "Gain [E] [E]. NL Gain !M! lose-memory .",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] [E] 。 NL Gain !M! lose-memory ."
+  },
+  "On_Rush": {
+    "NAME": "On Rush",
+    "DESCRIPTION": "Draw 2 cards. NL Apply !M! Vulnerable.",
+    "UPGRADE_DESCRIPTION": "Draw 2 cards. NL Apply !M! Vulnerable."
+  },
+  "More_Amazonian": {
+    "NAME": "More Amazonian",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL  NL Increase this card's damage times by !M! this combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL  NL Increase this card's damage times by !M! this combat."
+  },
+  "Fearless_Of_Death": {
+    "NAME": "Fearless Of Death",
+    "DESCRIPTION": "Whenever you play a Attack card, draw !M! card. NL At the start of your turn，lose 5 HP.(tips:Losing HP does not stack up).",
+    "UPGRADE_DESCRIPTION": "Whenever you play a Attack card, draw !M! card. NL At the start of your turn，lose 5 HP.(tips:Losing HP does not stack up)."
+  },
+  "Chop_Of_Death": {
+    "NAME": "Death Slash",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! killing-intent .",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !M! killing-intent ."
+  },
+  "The_Last_Bullets": {
+    "NAME": "Shortlived",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Decrease this card's damage times by 1 this combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Decrease this card's damage times by 1 this combat."
+  },
+  "Magic_Block": {
+    "NAME": "Magic Block",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 3 lose-memory. NL Gain !M! Artifact.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain 3 lose-memory. NL Gain !M! Artifact."
+  },
+  "Scarborough_Fair": {
+    "NAME": "Scarborough Fair",
+    "DESCRIPTION": "Choose one of the following cards:  NL *Parsley 、 *Sage 、 NL *Rosemary 、 *Thyme 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose one of the following cards:  NL *Parsley+ 、 *Sage+ 、 NL *Rosemary+ 、 *Thyme+ 。 NL Exhaust."
+  },
+  "Parsley_N": {
+    "NAME": "Parsley",
+    "DESCRIPTION": "Gain !M! Regen. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Regen. NL Exhaust."
+  },
+  "Sage_N": {
+    "NAME": "Sage",
+    "DESCRIPTION": "Gain !M! temporary Strength.",
+    "UPGRADE_DESCRIPTION": "Gain !M! temporary Strength."
+  },
+  "Rosemary_N": {
+    "NAME": "Rosemary",
+    "DESCRIPTION": "Lose !M! lose-memory. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Lose !M! lose-memory. NL Exhaust."
+  },
+  "Thyme_N": {
+    "NAME": "Thyme",
+    "DESCRIPTION": "Gain fearless Power. NL Gain !M! lose-memory. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain fearless Power. NL Gain !M! lose-memory. NL Exhaust."
+  },
+  "Seek_N": {
+    "NAME": "Seek",
+    "DESCRIPTION": "Gain [E] for every !M! cards in your discard pile.",
+    "UPGRADE_DESCRIPTION": "Gain [E] for every !M! cards in your discard pile."
+  },
+  "Remained_Image": {
+    "NAME": "Afterimage Sword",
+    "DESCRIPTION": "Deal !D! damage for each Skill played this turn.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage for each Skill played this turn.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " Skill played.)",
+      " Skills played.)"
+    ]
+  },
+  "Illusory_Ruckus": {
+    "NAME": "Muddle",
+    "DESCRIPTION": "Skills cost 0. NL Whenever you play a Attack, Exhaust it.",
+    "UPGRADE_DESCRIPTION": "Skills cost 0. NL Whenever you play a Attack, Exhaust it."
+  },
+  "Wings_Of_Fairy": {
+    "NAME": "Fairy's Wings",
+    "DESCRIPTION": "Gain flight~.",
+    "UPGRADE_DESCRIPTION": "Gain flight~."
+  },
+  "Ow_Forces": {
+    "NAME": "All Is Possible",
+    "DESCRIPTION": "Choose one of the three cards from the original four-character deck. NL It costs 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose one of the three cards from the original four-character deck. NL It costs 0 this turn. NL Exhaust."
+  },
+  "Endure_Eve": {
+    "NAME": "Quick Fight",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL gain !M! killing-intent.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL gain !M! killing-intent."
+  },
+  "Simplify_Life": {
+    "NAME": "Simplify Life",
+    "DESCRIPTION": "Exhaust 1 card at random. NL add a random card into your hand. NL gain !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Exhaust 1 card at random. NL add a random card into your hand. NL gain !M! lose-memory."
+  },
+  "Fully_Armed": {
+    "NAME": "Fully Armed",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! metallicize.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! metallicize."
+  },
+  "Tenacity_N": {
+    "NAME": "Tenacity",
+    "DESCRIPTION": "Can only be played if a card in your hand is an Status or Curse at least. NL Deal !D! damage to ALL enemies. NL Draw 1 cards.",
+    "UPGRADE_DESCRIPTION": "Can only be played if a card in your hand is an Status or Curse at least. NL Deal !D! damage to ALL enemies. NL Draw 1 cards.",
+    "EXTENDED_DESCRIPTION": [
+      "I don't have Status or Curse cards in my hand."
+    ]
+  },
+  "Recall_N": {
+    "NAME": "Recall",
+    "DESCRIPTION": "Draw the amount of lose-memory cards NL The upper limit is !M! .",
+    "UPGRADE_DESCRIPTION": "Draw the amount of lose-memory cards NL The upper limit is !M! ."
+  },
+  "illusion_Body": {
+    "NAME": "Illusion Body",
+    "DESCRIPTION": "Choose an Skill card. Add a copy of that card into your hand.",
+    "UPGRADE_DESCRIPTION": "Choose an Skill card. Add 2 copies of that card into your hand."
+  },
+  "Magic_Tap": {
+    "NAME": "Magic Strike",
+    "DESCRIPTION": "Deal !D! damage, gain !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, gain !M! lose-memory."
+  },
+  "Relive_N": {
+    "NAME": "Relive",
+    "DESCRIPTION": "raise your Max HP by half of your lose-memory. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL raise your Max HP by half of your lose-memory. NL Exhaust."
+  },
+  "Magic_Out": {
+    "NAME": "Magic Out",
+    "DESCRIPTION": "At the start of your turn, NL gain !M! lose-memory, NL draw !M! cards, NL Gain [E] .",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, NL gain !M! lose-memory, NL draw !M! cards, NL Gain [E] . Innate."
+  },
+  "Hone_N": {
+    "NAME": "Hone",
+    "DESCRIPTION": "Deal !D! damage. NL Next turn, draw !M! additional cards.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Next turn, draw !M! additional cards."
+  },
+  "The_Happiest":{
+    "NAME": "Eruku Form",
+    "DESCRIPTION": "Gain !M! immortal. NL Retain.",
+    "UPGRADE_DESCRIPTION": "Gain !M! immortal. NL Retain."
+  },
+  "Memory_Erosion":{
+    "NAME": "Memory Erosion",
+    "DESCRIPTION": "Gain !M! lose-memory. NL Remove a random effect from self and enemies. NL Exhaust. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Gain !M! lose-memory. NL Remove a random effect. NL Ethereal."
+  },
+  "Some_Kicks":{
+    "NAME": "Fairy Kicks",
+    "DESCRIPTION": "Deal !D! damage to a random enemy X times.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to a random enemy X times."
+  },
+  "Sword_LPT": {
+    "NAME": "Sword:LPT",
+    "DESCRIPTION": "You will not gain lose-memory this combat. NL But you can gain Gold. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "You will not gain lose-memory this combat. NL But you can gain Gold. NL Ethereal."
+  },
+  "Remember_N": {
+    "NAME": "Engrave",
+    "DESCRIPTION": "Gain the amount of lose-memory Block !M! times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain the amount of lose-memory Block !M! times. NL Exhaust."
+  },
+  "Selfless_N": {
+    "NAME": "Selfless",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies !M! times. NL Gain 3 lose-memory.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies !M! times. NL Gain 3 lose-memory."
+  },
+  "Look_Back": {
+    "NAME": "Look Back",
+    "DESCRIPTION": "Put !M! card from your discard pile into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Put !M! card from your discard pile into your hand. NL Exhaust."
+  },
+  "Reminiscing_Past": {
+    "NAME": "Reminiscing Past",
+    "DESCRIPTION": "Deal !D! damage. NL Lose !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Lose !M! lose-memory."
+  },
+  "Fight_Battle": {
+    "NAME": "Fight Battle",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Gain !M! lose-memory. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Gain !M! lose-memory. NL Ethereal."
+  },
+  "Magic_Overflow": {
+    "NAME": "Magic Overflow",
+    "DESCRIPTION": "Gain [E] 。Draw !M! cards. NL Gain !M! lose-memory. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] 。Draw !M! cards. NL Gain !M! lose-memory. NL Exhaust."
+  },
+  "Concern_N": {
+    "NAME": "Concern",
+    "DESCRIPTION": "Draw !M! cards. NL Upgrade a card in your hand for the rest of combat. NL Gain !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Upgrade all cards in your hand for the rest of combat. NL Gain !M! lose-memory."
+  },
+  "Narrow_Escape": {
+    "NAME": "Narrow Escape",
+    "DESCRIPTION": "Gain !M! Weak. NL Gain 2 malleable. NL Gain 1 blur.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Weak. NL Gain 2 malleable. NL Gain 1 blur."
+  },
+  "Unforgettable_N": {
+    "NAME": "Unforgettable",
+    "DESCRIPTION": "Whenever you gain lose-memory, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "Whenever you gain lose-memory, gain !M! Block."
+  },
+  "Redemption_N": {
+    "NAME": "Redemption",
+    "DESCRIPTION": "Choose cards to Exhaust in your hand. NL Gain 1 lose-memory for each card Exhausted. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose cards to Exhaust in your hand. NL Gain 1 lose-memory for each card Exhausted. NL Exhaust."
+  },
+  "Many_Lives": {
+    "NAME": "Past Lives",
+    "DESCRIPTION": "All Exhaust cards won't be Exhausted this combat.",
+    "UPGRADE_DESCRIPTION": "All Exhaust cards won't be Exhausted, All non-Exhaust cards will Exhausted this combat."
+  },
+  "Avg_Strike": {
+    "NAME": "Avg Strike",
+    "DESCRIPTION": "Deal !D! Damage. NL Gain !M! lose-memory. NL Lose !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Gain !M! lose-memory. NL Lose !M! lose-memory."
+  },
+  "Magic_Increase": {
+    "NAME": "Magic Increase",
+    "DESCRIPTION": "Your magic card is played twice this combat.",
+    "UPGRADE_DESCRIPTION": "Your magic card is played twice this combat."
+  },
+  "Magic_Illusion": {
+    "NAME": "Magic Illusion",
+    "DESCRIPTION": "Deal !D! Damage !M! times. NL Draw !M! cards. NL Discard all non- magic cards drawn.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage !M! times. NL Draw !M! cards. NL Discard all non- magic cards drawn."
+  },
+  "Magic_Circle": {
+    "NAME": "Magic Circle",
+    "DESCRIPTION": "Deal !D! damage. NL Put all magic cards from your discard pile into your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Put all magic cards from your discard pile into your hand."
+  },
+  "Magic_Avoid": {
+    "NAME": "Magic Rush",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! Cards. NL Gain 2 lose-memory.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! Cards. NL Gain 2 lose-memory."
+  },
+  "Magic_Fire": {
+    "NAME": "Magic Burnout",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Can be Upgraded any number of times."
+  },
+  "Emergency_Cooking": {
+    "NAME": "Emergency Cooking",
+    "DESCRIPTION": "Gain [E] . NL heal !M! HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] . NL heal !M! HP. NL Exhaust."
+  },
+  "Magic_Focus": {
+    "NAME": "Magic Focus",
+    "DESCRIPTION": "At the start of your turn, add a *Focus into your hand. NL Gain !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, add a *Focus into your hand. NL Gain !M! lose-memory."
+  },
+  "Butter_Cake": {
+    "NAME": "Butter Cake",
+    "DESCRIPTION": "Double your Strength this turn. NL Add a *Slimed into your discard pile.",
+    "UPGRADE_DESCRIPTION": "Double your Strength this turn. NL Add a *Slimed into your discard pile."
+  },
+  "Magic_Cover": {
+    "NAME": "Magic Cover",
+    "DESCRIPTION": "Exhaust all non-magic cards into your hand. Draw 1 cards for each card Exhausted.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Exhaust all non-magic cards into your hand. Draw 1 cards for each card Exhausted."
+  },
+  "Spin_Destiny": {
+    "NAME": "Spin Destiny",
+    "DESCRIPTION": "Whenever you gain Weak, gain !M! Strength. NL Whenever you gain Vulnerable, gain !M! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Whenever you gain Weak, gain !M! Strength. NL Whenever you gain Vulnerable, gain !M! Dexterity."
+  },
+  "Magic_Freely": {
+    "NAME": "Magic Crisscross",
+    "DESCRIPTION": "Whenever your lose-memory is even, apply !M! Weak. NL If not you can apply !M! Vulnerable.",
+    "UPGRADE_DESCRIPTION": "Whenever your lose-memory is uneven, apply !M! Weak. NL If not you can apply !M! Vulnerable."
+  },
+  "Magic_Flammability": {
+    "NAME": "Magic Flame",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust 1 card. NL Gain !M! lose-memory.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Exhaust 1 card. NL Gain !M! lose-memory."
+  },
+  "Magic_Boundless": {
+    "NAME": "Magic Infinite",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL Add a copy of this card into your discard pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL Add a copy of this card into your discard pile."
+  },
+  "Magic_Hash": {
+    "NAME": "Magic Hash",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Apply 1 Vulnerable.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Apply 2 Vulnerable."
+  },
+  "Magic_Chain": {
+    "NAME": "Magic Chain",
+    "DESCRIPTION": "Whenever you draw a magic card, draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a magic card, draw !M! card."
+  },
+  "Alert_N": {
+    "NAME": "Without Hesitation",
+    "DESCRIPTION": "Deal !D! damage 3 times. NL Deals additional damage equal to lose-memory's amount.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage 3 times. NL Deals additional damage equal to lose-memory's amount."
+  },
+  "Stop_N": {
+    "NAME": "Alert",
+    "DESCRIPTION": "Exhaust all non-Skill cards in your hand. NL Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Exhaust all non-Skill cards in your hand. NL Deal !D! damage."
+  },
+  "Confidence_N": {
+    "NAME": "Confidence",
+    "DESCRIPTION": "Draw 1 card. NL If you draw a Attack, gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card. NL If you draw a Attack, gain !B! Block."
+  },
+  "Sleep_N": {
+    "NAME": "Cohere",
+    "DESCRIPTION": "Gain !M! killing-intent. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! killing-intent. NL Exhaust."
+  },
+  "Probe_N": {
+    "NAME": "Probe",
+    "DESCRIPTION": "Deal !D! Damage. NL Retain 2 cards.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Retain 2 cards."
+  },
+  "Magic_Draw": {
+    "NAME": "Magic Extraction",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, heal !M! HP.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If Fatal, heal !M! HP."
+  },
+  "Experience_N": {
+    "NAME": "Desperate Attempt",
+    "DESCRIPTION": "Retain. NL Discard your hand. NL Put !M! card from your draw pile into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Discard your hand. NL Put !M! card from your draw pile into your hand. NL Exhaust."
+  },
+  "Get_Memory": {
+    "NAME": "Remember",
+    "DESCRIPTION": "Lose lose-memory.",
+    "UPGRADE_DESCRIPTION": "Lose lose-memory."
+  },
+  "Lose_Memory": {
+    "NAME": "Forget",
+    "DESCRIPTION": "Gain lose-memory.",
+    "UPGRADE_DESCRIPTION": "Gain lose-memory."
+  },
+  "Red_Card": {
+    "NAME": "Ironclad Cards",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Green_Card": {
+    "NAME": "TheSilent Cards",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Blue_Card": {
+    "NAME": "Defect Cards",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Purple_Card": {
+    "NAME": "Watcher Cards",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  }
+}

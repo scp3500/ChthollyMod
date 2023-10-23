@@ -4,12 +4,12 @@ import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
+import util.Cht_Helper;
 
 import java.util.ArrayList;
 
@@ -18,7 +18,7 @@ public class Scarborough_Fair extends CustomCard {
     public static final String ID = "Scarborough_Fair";
 
     public Scarborough_Fair() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Scarborough_Fair.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Scarborough_Fair.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.cardsToPreview = (AbstractCard)new Parsley_N();
         this.cardsToPreview = (AbstractCard)new Sage_N();
         this.cardsToPreview = (AbstractCard)new Rosemary_N();
@@ -38,6 +38,10 @@ public class Scarborough_Fair extends CustomCard {
             }
         }
         addToBot((AbstractGameAction)new ChooseOneAction(stanceChoices));
+        if (!Cht_Helper.isPlay) {
+            CardCrawlGame.sound.playA("SCAR", 0.0F);
+        }
+        Cht_Helper.isPlay = true;
     }
 
 

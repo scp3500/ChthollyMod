@@ -1,0 +1,114 @@
+{
+  "GuiltyPower": {
+    "NAME": "Guilty",
+    "DESCRIPTIONS": [
+      "Gain an equal number of levels of power, and add an equal number of wraiths to yourself at the end of your turn."
+    ]
+  },
+  "Fearless_Of_Death": {
+    "NAME": "Fearless",
+    "DESCRIPTIONS": [
+      "For each #yAttack card played, draw #b",
+      " card, at start of your turn, you lose 5 HP",
+      "For each #yAttack card played, draw #b",
+      " card, At start of your turn, you lose 5 HP (note: life loss does not stack),",
+      " HP"
+    ]
+  },
+  "Near_Death": {
+    "NAME": "Kill Intent",
+    "DESCRIPTIONS": [
+      "For each #yAttack card drawn, deals to all enemies #b",
+      " damage , keep #b",
+      " turns," ,
+      " turns,"
+    ]
+  },
+  "Lose_Memory": {
+    "NAME": "Lose memory",
+    "DESCRIPTIONS": [
+      "Whenever you gain or lose #yLose-memory , if its tier is more than #b5, you gain #b2 #yLose-memory " ,
+      "When your #yLose-memory tier is no less than #b10, lose #b30% HP next turn."
+    ]
+  },
+  "Illusory_Ruckus": {
+    "NAME": "Karmic",
+    "DESCRIPTIONS": [
+      "#yAttacks cost #b0. Whenever you play a #yAttack, #yExhaust it." ,
+      "Whenever you play a #yAttack , #yExhaust it."
+    ]
+  },
+  "EndTurnDeathPower_New": {
+    "NAME": "Rebirth",
+    "DESCRIPTIONS": [
+      "Take 30 damage at start of your turn."
+    ]
+  },
+  "Magic_Out": {
+    "NAME": "Magic Out",
+    "DESCRIPTIONS": [
+      "At the beginning of your turn, gain #b",
+      " tier #y amnesia and draw #b ",
+      " tiles ",
+      " gain at the beginning of your turn ",
+      ","
+    ]
+  },
+  "The_Happiest": {
+    "NAME": "immortal",
+    "DESCRIPTIONS": [
+      "Does not die from a single lethal attack,"
+    ]
+  },
+  "Eroded": {
+    "NAME": "Eroded",
+    "DESCRIPTIONS": [
+      "At the start of the turn, gain #b",
+      " Tier #y spotting , (Note: Refresh the dotted tier each time you give Erosion)"
+    ]
+  },
+  "Guard": {
+    "NAME": "guard",
+    "DESCRIPTIONS": [
+      "Any #y amnesia gained in this battle is converted to #y gold "
+    ]
+  },
+  "Unforgettable": {
+    "NAME": "engraved",
+    "DESCRIPTIONS": [
+      "Each time you get #y amnesia, get #b",
+      " point #y block "
+    ]
+  },
+  "Magic_Increase": {
+    "NAME": "Magic increase",
+    "DESCRIPTIONS": [
+      "The \"Magic Series\" card you played will be played twice,"
+    ]
+  },
+  "Magic_Focus": {
+    "NAME": "Magic Focus",
+    "DESCRIPTIONS": [
+      "At the beginning of your turn, get #b",
+      " Chang #y focus ," ,
+      " Zhang #y Focus ,"
+    ]
+  },
+  "Spin_Destiny": {
+    "NAME": "Reverse Fate",
+    "DESCRIPTIONS": [
+      "Whenever you gain easy wounds, gain #b",
+      " point #y agility ," ,
+      "Whenever you gain Weakness, gain #b",
+      " points #y Strength ,"
+    ]
+  },
+  "Magic_Chain": {
+    "NAME": "Magic Chain",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yMagic card, draw 1 card," ,
+      "Whenever you draw a #yMagic card, draw #b",
+      " cards"
+    ]
+  }
+}

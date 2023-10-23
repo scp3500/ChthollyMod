@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.Near_Death_Power;
 
 public class Chop_Of_Death extends CustomCard {
@@ -20,8 +20,8 @@ public class Chop_Of_Death extends CustomCard {
     public static final String ID = "Chop_Of_Death";
 
     public Chop_Of_Death() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Chop_Of_Death.png", 2, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Seles_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
-        this.baseDamage = 14;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Chop_Of_Death.png", 2, cardStrings.DESCRIPTION, CardType.ATTACK, AbstractCardEnum.Chtho_COLOR, CardRarity.COMMON, CardTarget.SELF_AND_ENEMY);
+        this.baseDamage = 15;
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
     }

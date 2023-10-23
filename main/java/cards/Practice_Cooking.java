@@ -2,30 +2,20 @@ package cards;
 
 import action.IncreaseMiscAction_N;
 import basemod.abstracts.CustomCard;
-import basemod.helpers.BaseModCardTags;
-import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.actions.common.HealAction;
-import com.megacrit.cardcrawl.actions.defect.IncreaseMiscAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.AbstractPower;
-import pathes.AbstractCardEnum;
-
-import java.util.Iterator;
+import patches_cht.AbstractCardEnum;
 
 public class Practice_Cooking extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Practice_Cooking");
     public static final String ID = "Practice_Cooking";
 
     public Practice_Cooking() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Practice_Cooking.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, cardStrings.NAME, "img/cards_Seles/Practice_Cooking.png", 2, cardStrings.DESCRIPTION, CardType.SKILL, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
         this.misc = 4;
         this.baseMagicNumber = this.misc;
         this.magicNumber = this.baseMagicNumber;
@@ -36,7 +26,6 @@ public class Practice_Cooking extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction) new IncreaseMiscAction_N(this.uuid, this.misc, 1));
-        addToBot((AbstractGameAction) new HealAction((AbstractCreature) p, (AbstractCreature) p, this.magicNumber));
         this.magicNumber = this.misc;
     }
 

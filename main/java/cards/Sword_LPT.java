@@ -3,27 +3,23 @@ package cards;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.NoDrawPower;
-import pathes.AbstractCardEnum;
+import patches_cht.AbstractCardEnum;
 import power.GuardPower;
-import power.Near_Death_Power;
 
 public class Sword_LPT extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Sword_LPT");
     public static final String ID = "Sword_LPT";
 
     public Sword_LPT() {
-        super(ID, cardStrings.NAME, "img/cards_Seles/Sword_LPT.png", 1, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Seles_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
-        this.baseMagicNumber = 3;
+        super(ID, cardStrings.NAME, "img/cards_Seles/Sword_LPT.png", 2, cardStrings.DESCRIPTION, CardType.POWER, AbstractCardEnum.Chtho_COLOR, CardRarity.UNCOMMON, CardTarget.SELF);
+        this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
         this.isEthereal = true;
     }
@@ -34,7 +30,8 @@ public class Sword_LPT extends CustomCard {
 
     public void upgrade() {
         if (!this.upgraded) {
-            this.isEthereal = false;
+            upgradeName();
+            upgradeBaseCost(1);
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

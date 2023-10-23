@@ -23,7 +23,7 @@ public class SavePower extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("SavePower");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final int COST = 1;
+    private static final int COST = 0;
     public static final String ID = "SavePower";
     public static final String IMG_PATH = "img/cards_Seles/SavePower.png";
 
@@ -31,7 +31,7 @@ public class SavePower extends CustomCard {
     public SavePower() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, AbstractCard.CardType.SKILL,  AbstractCard.CardColor.COLORLESS, AbstractCard.CardRarity.SPECIAL, AbstractCard.CardTarget.NONE);
         //初始为3层活力
-        this.baseMagicNumber = 4;
+        this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
         this.selfRetain = true;
@@ -56,10 +56,10 @@ public class SavePower extends CustomCard {
 
     @Override
     public void upgrade() {
-        //卡牌升级后的效果，升级后活力+2
+        //卡牌升级后的效果，升级后活力+1
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(2);
+            upgradeMagicNumber(1);
         }
     }
 }
